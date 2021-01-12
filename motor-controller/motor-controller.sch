@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Brushless DC Motor Controller"
-Date "2020-12-24"
-Rev "0.0.1"
+Date "2021-01-03"
+Rev "0.0.2"
 Comp "JHU Deliverbot Project"
 Comment1 ""
 Comment2 ""
@@ -341,12 +341,12 @@ $EndComp
 $Comp
 L power:VCC #PWR0108
 U 1 1 5FE6FEFE
-P 2950 2150
-F 0 "#PWR0108" H 2950 2000 50  0001 C CNN
-F 1 "VCC" H 2967 2323 50  0000 C CNN
-F 2 "" H 2950 2150 50  0001 C CNN
-F 3 "" H 2950 2150 50  0001 C CNN
-	1    2950 2150
+P 2350 2150
+F 0 "#PWR0108" H 2350 2000 50  0001 C CNN
+F 1 "VCC" H 2367 2323 50  0000 C CNN
+F 2 "" H 2350 2150 50  0001 C CNN
+F 3 "" H 2350 2150 50  0001 C CNN
+	1    2350 2150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -361,7 +361,7 @@ F 3 "" H 2950 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2950 2150 2950 2300
+	2350 2150 2350 2300
 Wire Wire Line
 	2950 2400 2950 2550
 Text Notes 7050 3500 0    50   ~ 0
@@ -484,4 +484,65 @@ Wire Wire Line
 Wire Wire Line
 	4400 4650 4850 4650
 Connection ~ 3650 4550
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5FF140AB
+P 3400 5950
+F 0 "H2" H 3500 5996 50  0000 L CNN
+F 1 "MountingHole" H 3500 5905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 3400 5950 50  0001 C CNN
+F 3 "~" H 3400 5950 50  0001 C CNN
+	1    3400 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5FF15A3A
+P 3400 5750
+F 0 "H1" H 3500 5796 50  0000 L CNN
+F 1 "MountingHole" H 3500 5705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 3400 5750 50  0001 C CNN
+F 3 "~" H 3400 5750 50  0001 C CNN
+	1    3400 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5FF29E21
+P 4200 5950
+F 0 "H4" H 4300 5996 50  0000 L CNN
+F 1 "MountingHole" H 4300 5905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 4200 5950 50  0001 C CNN
+F 3 "~" H 4200 5950 50  0001 C CNN
+	1    4200 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5FF29E28
+P 4200 5750
+F 0 "H3" H 4300 5796 50  0000 L CNN
+F 1 "MountingHole" H 4300 5705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 4200 5750 50  0001 C CNN
+F 3 "~" H 4200 5750 50  0001 C CNN
+	1    4200 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Fuse F1
+U 1 1 5FF2D941
+P 2650 2300
+F 0 "F1" V 2453 2300 50  0000 C CNN
+F 1 "3.5A" V 2544 2300 50  0000 C CNN
+F 2 "custom:littelfuse-01110505Z-5x15mm" V 2580 2300 50  0001 C CNN
+F 3 "~" H 2650 2300 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/littelfuse-inc/022503-5MXP/777791" V 2650 2300 50  0001 C CNN "Fuse"
+F 5 "https://www.digikey.com/en/products/detail/littelfuse-inc/01110505Z/2518624" V 2650 2300 50  0001 C CNN "Holder"
+	1    2650 2300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2350 2300 2500 2300
+Wire Wire Line
+	2800 2300 2950 2300
 $EndSCHEMATC
