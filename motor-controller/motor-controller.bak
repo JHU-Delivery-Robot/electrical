@@ -536,6 +536,8 @@ F 0 "F1" V 2453 2300 50  0000 C CNN
 F 1 "3.5A" V 2544 2300 50  0000 C CNN
 F 2 "custom:littelfuse-01110505Z-5x15mm" V 2580 2300 50  0001 C CNN
 F 3 "~" H 2650 2300 50  0001 C CNN
+F 4 "https://www.digikey.com/en/products/detail/littelfuse-inc/022503-5MXP/777791" V 2650 2300 50  0001 C CNN "Fuse"
+F 5 "https://www.digikey.com/en/products/detail/littelfuse-inc/01110505Z/2518624" V 2650 2300 50  0001 C CNN "Holder"
 	1    2650 2300
 	0    1    1    0   
 $EndComp
