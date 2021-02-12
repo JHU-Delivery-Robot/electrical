@@ -1,14 +1,15 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:Simple-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "Simple uC"
+Date "2021-02-12"
+Rev "0.0.1"
+Comp "JHU Deliverbot Project"
+Comment1 "Drafted by Bethany Kemp"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -332,7 +333,7 @@ SDA
 Text Label 7550 3250 0    50   ~ 0
 SCL
 $Comp
-L My_custom_simple_lib:PowerRegulator U1
+L Simple-rescue:PowerRegulator-My_custom_simple_lib U1
 U 1 1 600825A1
 P 4650 2000
 F 0 "U1" H 4650 2415 50  0000 C CNN
@@ -556,7 +557,7 @@ F 3 "" H 3300 5300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MCU_Microchip_ATtiny:ATtiny814-SS U3
+L Simple-rescue:ATtiny814-SS-MCU_Microchip_ATtiny U3
 U 1 1 5FF12ACE
 P 3300 4600
 F 0 "U3" H 2850 5300 50  0000 C CNN
@@ -731,7 +732,7 @@ Text Label 7950 3300 0    50   ~ 0
 3V
 Text Label 7950 4150 0    50   ~ 0
 3V
-Text Label 7950 5050 0    50   ~ 0
+Text Label 7950 5100 0    50   ~ 0
 3V
 Text Label 7950 5900 0    50   ~ 0
 3V
@@ -743,4 +744,18 @@ Wire Wire Line
 	7950 5100 7950 5200
 Wire Wire Line
 	7950 5900 7950 6050
+Text Notes 8750 5550 0    50   ~ 0
+Motor connectors need to be changed to \n6-pin with ground channel.\nThis might become a 7-pin connector.\n\nINPUT and SPEED_TRIG lines should be \nseparated b/w motors.
+Text Notes 4450 3000 0    50   ~ 0
+Verify that fixed 3V3 regulator\nhas same pinout.
+Text Notes 5300 3500 0    50   ~ 0
+Add pullups to 5V for SDA, SCL.\nAlso add 5V <-> 3V3 level shifters.
+Text Notes 1150 6500 0    50   ~ 0
+== Transceiver notes ==\nTie ~RE~ and DE lines together to \nsingle data direction pin on uC.\nA/B differential line needs to be connected to two connectors.\nAvoid stubs and sharp corners.\nA/B differential pair needs to be \nimpedance controlled to 120 Ohms.\n\nData direction line is common to all\nvariations of this board.
+Text Notes 5250 4750 0    50   ~ 0
+Connect misc. data and interrupt lines to uC.
+Text Notes 9750 2750 0    50   ~ 0
+ECHO lines should be connected \nto separate, special I/O ports on \nuC connected to 16-bit timers.
+Text Notes 8200 1750 0    50   ~ 0
+Use JST PH 2.0 mm pitch connectors.
 $EndSCHEMATC

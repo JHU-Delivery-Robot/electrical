@@ -135,14 +135,13 @@ X ~ 2 0 -100 40 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MCU_Microchip_ATtiny_ATtiny814-SS
+# Simple-rescue_ATtiny814-SS-MCU_Microchip_ATtiny
 #
-DEF MCU_Microchip_ATtiny_ATtiny814-SS U 0 20 Y Y 1 F N
+DEF Simple-rescue_ATtiny814-SS-MCU_Microchip_ATtiny U 0 20 Y Y 1 F N
 F0 "U" -500 650 50 H V L BNN
-F1 "MCU_Microchip_ATtiny_ATtiny814-SS" 100 -650 50 H V L TNN
+F1 "Simple-rescue_ATtiny814-SS-MCU_Microchip_ATtiny" 100 -650 50 H V L TNN
 F2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" 0 0 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
-ALIAS ATtiny404-SS ATtiny804-SS ATtiny1604-SS ATtiny214-SS ATtiny414-SS ATtiny814-SS ATtiny1614-SS
 $FPLIST
  SOIC*3.9x8.7mm*P1.27mm*
 $ENDFPLIST
@@ -165,11 +164,11 @@ X PB0 9 -600 400 100 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# My_custom_simple_lib_PowerRegulator
+# Simple-rescue_PowerRegulator-My_custom_simple_lib
 #
-DEF My_custom_simple_lib_PowerRegulator U 0 40 Y Y 1 F N
+DEF Simple-rescue_PowerRegulator-My_custom_simple_lib U 0 40 Y Y 1 F N
 F0 "U" 450 400 50 H V C CNN
-F1 "My_custom_simple_lib_PowerRegulator" 100 400 50 H V C CNN
+F1 "Simple-rescue_PowerRegulator-My_custom_simple_lib" 100 400 50 H V C CNN
 F2 "" 100 400 50 H I C CNN
 F3 "" 100 400 50 H I C CNN
 DRAW
