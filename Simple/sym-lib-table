@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name Simple-rescue)(type Legacy)(uri ${KIPRJMOD}/Simple-rescue.lib)(options "")(descr ""))
+  (lib (name 2021-02-20_05-48-50)(type Legacy)(uri ${KIPRJMOD}/ul_SP485CNLTR/KiCAD/2021-02-20_05-48-50/2021-02-20_05-48-50.lib)(options "")(descr ""))
+  (lib (name My_custom_simple_lib)(type Legacy)(uri ${KIPRJMOD}/My_custom_simple_lib.lib)(options "")(descr ""))
+)
