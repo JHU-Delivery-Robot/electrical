@@ -514,39 +514,35 @@ F 3 "~" H 4000 4750 50  0001 C CNN
 	1    4000 4750
 	-1   0    0    -1  
 $EndComp
-Text Label 1600 4950 2    50   ~ 0
+Text Label 1700 4950 2    50   ~ 0
 RXD
-Text Label 1600 5050 2    50   ~ 0
+Text Label 1700 5050 2    50   ~ 0
 TXD
-Wire Wire Line
-	2600 4300 2600 4350
-Wire Wire Line
-	2500 4300 2600 4300
 $Comp
 L power:GND #PWR0114
 U 1 1 5FF18DE8
-P 2600 4350
-F 0 "#PWR0114" H 2600 4100 50  0001 C CNN
-F 1 "GND" H 2700 4350 50  0000 C CNN
-F 2 "" H 2600 4350 50  0001 C CNN
-F 3 "" H 2600 4350 50  0001 C CNN
-	1    2600 4350
+P 2500 4350
+F 0 "#PWR0114" H 2500 4100 50  0001 C CNN
+F 1 "GND" H 2600 4350 50  0000 C CNN
+F 2 "" H 2500 4350 50  0001 C CNN
+F 3 "" H 2500 4350 50  0001 C CNN
+	1    2500 4350
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0115
 U 1 1 5FF13A15
-P 2200 5850
-F 0 "#PWR0115" H 2200 5600 50  0001 C CNN
-F 1 "GND" H 2205 5677 50  0000 C CNN
-F 2 "" H 2200 5850 50  0001 C CNN
-F 3 "" H 2200 5850 50  0001 C CNN
-	1    2200 5850
+P 2300 5900
+F 0 "#PWR0115" H 2300 5650 50  0001 C CNN
+F 1 "GND" H 2305 5727 50  0000 C CNN
+F 2 "" H 2300 5900 50  0001 C CNN
+F 3 "" H 2300 5900 50  0001 C CNN
+	1    2300 5900
 	1    0    0    -1  
 $EndComp
-Text Label 1600 4850 2    50   ~ 0
+Text Label 1700 4850 2    50   ~ 0
 SDA
-Text Label 1600 4750 2    50   ~ 0
+Text Label 1700 4750 2    50   ~ 0
 SCL
 $Comp
 L Device:C C4
@@ -847,29 +843,26 @@ Wire Wire Line
 	8400 4850 9100 4850
 NoConn ~ 9400 1250
 $Comp
-L Simple-rescue:ATtiny814-SS-MCU_Microchip_ATtiny-Simple-rescue U3
+L Simple-rescue:ATtiny816-MN U3
 U 1 1 5FF12ACE
-P 2200 5150
-F 0 "U3" H 1750 5850 50  0000 C CNN
-F 1 "ATtiny814-SS" H 2200 6389 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 2200 5150 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/40001912A.pdf" H 2200 5150 50  0001 C CNN
-	1    2200 5150
+P 2300 5150
+F 0 "U3" H 1850 5850 50  0000 C CNN
+F 1 "ATtiny814-SS" H 1850 5750 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 2300 5150 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/40001912A.pdf" H 2300 5150 50  0001 C CNN
+	1    2300 5150
 	1    0    0    -1  
 $EndComp
-Connection ~ 2200 4300
-Wire Wire Line
-	2200 4300 2200 4450
 $Comp
 L Device:C C3
 U 1 1 5FF154BD
-P 2350 4300
-F 0 "C3" V 2531 4300 50  0000 C CNN
-F 1 "1u" V 2189 4300 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2388 4150 50  0001 C CNN
-F 3 "~" H 2350 4300 50  0001 C CNN
-	1    2350 4300
-	0    1    1    0   
+P 2500 4200
+F 0 "C3" H 2700 4250 50  0000 C CNN
+F 1 "1u" H 2700 4150 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2538 4050 50  0001 C CNN
+F 3 "~" H 2500 4200 50  0001 C CNN
+	1    2500 4200
+	1    0    0    -1  
 $EndComp
 Text Label 5550 4400 3    50   ~ 0
 DIR2
@@ -1145,18 +1138,16 @@ Wire Wire Line
 $Comp
 L power:+5V #PWR0105
 U 1 1 5FF1407B
-P 2200 4200
-F 0 "#PWR0105" H 2200 4050 50  0001 C CNN
-F 1 "+5V" H 2215 4412 50  0000 C CNN
-F 2 "" H 2200 4200 50  0001 C CNN
-F 3 "" H 2200 4200 50  0001 C CNN
-	1    2200 4200
+P 2300 4050
+F 0 "#PWR0105" H 2300 3900 50  0001 C CNN
+F 1 "+5V" H 2315 4262 50  0000 C CNN
+F 2 "" H 2300 4050 50  0001 C CNN
+F 3 "" H 2300 4050 50  0001 C CNN
+	1    2300 4050
 	1    0    0    -1  
 $EndComp
 Text Notes 850  3550 0    50   ~ 0
 == Transceiver notes ==\nTie ~RE~ and DE lines together to \nsingle data direction pin on uC.\nA/B differential line needs to be connected to two connectors.\nAvoid stubs and sharp corners.\nA/B differential pair needs to be \nimpedance controlled to 120 Ohms.\n\nData direction line is common to all\nvariations of this board.
-Wire Wire Line
-	2200 4200 2200 4300
 Text Label 6250 2800 0    50   ~ 0
 SCL
 Text Label 6250 3250 0    50   ~ 0
@@ -1227,4 +1218,23 @@ Text Label 4450 1550 0    50   ~ 0
 A
 Text Label 4400 1000 0    50   ~ 0
 B
+Wire Wire Line
+	2300 4050 2300 4500
+Wire Wire Line
+	2500 4050 2300 4050
+Connection ~ 2300 4050
+Wire Wire Line
+	1700 4750 1800 4750
+Wire Wire Line
+	1700 4850 1800 4850
+Wire Wire Line
+	1700 4950 1800 4950
+Wire Wire Line
+	1700 5050 1800 5050
+NoConn ~ 1800 5150
+NoConn ~ 1800 5250
+NoConn ~ 1800 5400
+NoConn ~ 1800 5500
+NoConn ~ 1800 5600
+NoConn ~ 1800 5700
 $EndSCHEMATC
