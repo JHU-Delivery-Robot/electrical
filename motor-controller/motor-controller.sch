@@ -21,7 +21,7 @@ P 5650 3450
 F 0 "U1" H 5650 5136 60  0000 C CNN
 F 1 "DRV10983PWP" H 5650 5030 60  0000 C CNN
 F 2 "custom:PWP0024B" H 5650 3390 60  0001 C CNN
-F 3 "" H 5650 3450 60  0000 C CNN
+F 3 "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fdrv10983" H 5650 3450 60  0001 C CNN
 	1    5650 3450
 	1    0    0    -1  
 $EndComp
