@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "Simple uC"
 Date "2021-02-12"
-Rev "0.0.1"
+Rev "0.0.2"
 Comp "JHU Deliverbot Project"
 Comment1 "Drafted by Bethany Kemp"
 Comment2 ""
@@ -843,11 +843,11 @@ Wire Wire Line
 	8400 4850 9100 4850
 NoConn ~ 9400 1250
 $Comp
-L Simple-rescue:ATtiny816-MN U3
+L Simple-rescue:ATtiny816-MN-Simple-rescue U3
 U 1 1 5FF12ACE
 P 2300 5150
 F 0 "U3" H 1850 5850 50  0000 C CNN
-F 1 "ATtiny814-SS" H 1850 5750 50  0000 C CNN
+F 1 "ATtiny816-SS" H 1850 5750 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 2300 5150 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/40001912A.pdf" H 2300 5150 50  0001 C CNN
 	1    2300 5150
@@ -878,32 +878,18 @@ Wire Wire Line
 Connection ~ 8550 1050
 Wire Wire Line
 	8550 1050 8300 1050
-Text Label 4450 1650 0    50   ~ 0
+Text Label 4100 1650 0    50   ~ 0
 B
-Text Label 3500 1900 0    50   ~ 0
+Text Label 3000 1850 0    50   ~ 0
 A
-Text Label 4400 900  0    50   ~ 0
+Text Label 4950 800  0    50   ~ 0
 A
-Text Label 3500 1700 0    50   ~ 0
+Text Label 3000 1750 0    50   ~ 0
 B
 Text Label 1250 1950 2    50   ~ 0
 TXD
 Text Label 1250 1650 2    50   ~ 0
 RXD
-Connection ~ 3300 1900
-Wire Wire Line
-	3300 1900 3500 1900
-Connection ~ 3300 1700
-Wire Wire Line
-	3300 1700 3500 1700
-Wire Wire Line
-	3000 1900 3300 1900
-Wire Wire Line
-	3000 1850 3000 1900
-Wire Wire Line
-	3000 1700 3000 1750
-Wire Wire Line
-	3300 1700 3000 1700
 Wire Wire Line
 	2950 1950 2950 2250
 Wire Wire Line
@@ -981,34 +967,23 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x02_Male J5
 U 1 1 60304303
-P 4200 900
-F 0 "J5" H 4308 1081 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 4150 1200 50  0000 C CNN
-F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 4200 900 50  0001 C CNN
-F 3 "~" H 4200 900 50  0001 C CNN
-	1    4200 900 
+P 3800 900
+F 0 "J5" H 3908 1081 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 3750 1200 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 3800 900 50  0001 C CNN
+F 3 "~" H 3800 900 50  0001 C CNN
+	1    3800 900 
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x02_Male J6
 U 1 1 603052F1
-P 4250 1550
-F 0 "J6" H 4358 1731 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 4150 1850 50  0000 C CNN
-F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 4250 1550 50  0001 C CNN
-F 3 "~" H 4250 1550 50  0001 C CNN
-	1    4250 1550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small_US R5
-U 1 1 6045249B
-P 3300 1800
-F 0 "R5" V 3505 1800 50  0000 C CNN
-F 1 "120" V 3414 1800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 3300 1800 50  0001 C CNN
-F 3 "~" H 3300 1800 50  0001 C CNN
-	1    3300 1800
+P 3900 1550
+F 0 "J6" H 4008 1731 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 3800 1850 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 3900 1550 50  0001 C CNN
+F 3 "~" H 3900 1550 50  0001 C CNN
+	1    3900 1550
 	1    0    0    -1  
 $EndComp
 Text Label 1000 1800 2    50   ~ 0
@@ -1214,9 +1189,9 @@ F 3 "" H 5900 2200 50  0001 C CNN
 	1    5900 2200
 	1    0    0    -1  
 $EndComp
-Text Label 4450 1550 0    50   ~ 0
+Text Label 4100 1550 0    50   ~ 0
 A
-Text Label 4400 1000 0    50   ~ 0
+Text Label 4950 900  0    50   ~ 0
 B
 Wire Wire Line
 	2300 4050 2300 4500
@@ -1231,10 +1206,41 @@ Wire Wire Line
 	1700 4950 1800 4950
 Wire Wire Line
 	1700 5050 1800 5050
-NoConn ~ 1800 5150
 NoConn ~ 1800 5250
 NoConn ~ 1800 5400
 NoConn ~ 1800 5500
 NoConn ~ 1800 5600
 NoConn ~ 1800 5700
+$Comp
+L Connector:Conn_01x03_Male J?
+U 1 1 604D4C51
+P 4750 900
+F 0 "J?" H 4858 1181 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 4858 1090 50  0000 C CNN
+F 2 "" H 4750 900 50  0001 C CNN
+F 3 "~" H 4750 900 50  0001 C CNN
+	1    4750 900 
+	1    0    0    -1  
+$EndComp
+Text Label 5000 1400 0    50   ~ 0
+A
+Text Label 5000 1500 0    50   ~ 0
+B
+$Comp
+L Connector:Conn_01x03_Male J?
+U 1 1 60508E02
+P 4800 1500
+F 0 "J?" H 4908 1781 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 4908 1690 50  0000 C CNN
+F 2 "" H 4800 1500 50  0001 C CNN
+F 3 "~" H 4800 1500 50  0001 C CNN
+	1    4800 1500
+	1    0    0    -1  
+$EndComp
+Text Label 4950 1000 0    50   ~ 0
+Interrupt
+Text Label 5000 1600 0    50   ~ 0
+Interrupt
+Text Label 1800 5150 2    50   ~ 0
+Interrupt
 $EndSCHEMATC

@@ -514,39 +514,35 @@ F 3 "~" H 4000 4750 50  0001 C CNN
 	1    4000 4750
 	-1   0    0    -1  
 $EndComp
-Text Label 1600 4950 2    50   ~ 0
+Text Label 1700 4950 2    50   ~ 0
 RXD
-Text Label 1600 5050 2    50   ~ 0
+Text Label 1700 5050 2    50   ~ 0
 TXD
-Wire Wire Line
-	2600 4300 2600 4350
-Wire Wire Line
-	2500 4300 2600 4300
 $Comp
 L power:GND #PWR0114
 U 1 1 5FF18DE8
-P 2600 4350
-F 0 "#PWR0114" H 2600 4100 50  0001 C CNN
-F 1 "GND" H 2700 4350 50  0000 C CNN
-F 2 "" H 2600 4350 50  0001 C CNN
-F 3 "" H 2600 4350 50  0001 C CNN
-	1    2600 4350
+P 2500 4350
+F 0 "#PWR0114" H 2500 4100 50  0001 C CNN
+F 1 "GND" H 2600 4350 50  0000 C CNN
+F 2 "" H 2500 4350 50  0001 C CNN
+F 3 "" H 2500 4350 50  0001 C CNN
+	1    2500 4350
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0115
 U 1 1 5FF13A15
-P 2200 5850
-F 0 "#PWR0115" H 2200 5600 50  0001 C CNN
-F 1 "GND" H 2205 5677 50  0000 C CNN
-F 2 "" H 2200 5850 50  0001 C CNN
-F 3 "" H 2200 5850 50  0001 C CNN
-	1    2200 5850
+P 2300 5900
+F 0 "#PWR0115" H 2300 5650 50  0001 C CNN
+F 1 "GND" H 2305 5727 50  0000 C CNN
+F 2 "" H 2300 5900 50  0001 C CNN
+F 3 "" H 2300 5900 50  0001 C CNN
+	1    2300 5900
 	1    0    0    -1  
 $EndComp
-Text Label 1600 4850 2    50   ~ 0
+Text Label 1700 4850 2    50   ~ 0
 SDA
-Text Label 1600 4750 2    50   ~ 0
+Text Label 1700 4750 2    50   ~ 0
 SCL
 $Comp
 L Device:C C4
@@ -847,29 +843,26 @@ Wire Wire Line
 	8400 4850 9100 4850
 NoConn ~ 9400 1250
 $Comp
-L Simple-rescue:ATtiny814-SS-MCU_Microchip_ATtiny-Simple-rescue U3
+L Simple-rescue:ATtiny816-MN-Simple-rescue U3
 U 1 1 5FF12ACE
-P 2200 5150
-F 0 "U3" H 1750 5850 50  0000 C CNN
-F 1 "ATtiny814-SS" H 2200 6389 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 2200 5150 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/40001912A.pdf" H 2200 5150 50  0001 C CNN
-	1    2200 5150
+P 2300 5150
+F 0 "U3" H 1850 5850 50  0000 C CNN
+F 1 "ATtiny814-SS" H 1850 5750 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 2300 5150 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/40001912A.pdf" H 2300 5150 50  0001 C CNN
+	1    2300 5150
 	1    0    0    -1  
 $EndComp
-Connection ~ 2200 4300
-Wire Wire Line
-	2200 4300 2200 4450
 $Comp
 L Device:C C3
 U 1 1 5FF154BD
-P 2350 4300
-F 0 "C3" V 2531 4300 50  0000 C CNN
-F 1 "1u" V 2189 4300 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2388 4150 50  0001 C CNN
-F 3 "~" H 2350 4300 50  0001 C CNN
-	1    2350 4300
-	0    1    1    0   
+P 2500 4200
+F 0 "C3" H 2700 4250 50  0000 C CNN
+F 1 "1u" H 2700 4150 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2538 4050 50  0001 C CNN
+F 3 "~" H 2500 4200 50  0001 C CNN
+	1    2500 4200
+	1    0    0    -1  
 $EndComp
 Text Label 5550 4400 3    50   ~ 0
 DIR2
@@ -885,11 +878,11 @@ Wire Wire Line
 Connection ~ 8550 1050
 Wire Wire Line
 	8550 1050 8300 1050
-Text Label 4450 1550 0    50   ~ 0
+Text Label 4100 1650 0    50   ~ 0
 B
 Text Label 3500 1900 0    50   ~ 0
 A
-Text Label 4400 900  0    50   ~ 0
+Text Label 4950 800  0    50   ~ 0
 A
 Text Label 3500 1700 0    50   ~ 0
 B
@@ -934,10 +927,10 @@ F 3 "https://www.digikey.com/en/products/detail/maxlinear-inc/SP485CN-L-TR/24719
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0126
 U 1 1 6036CB10
 P 2900 1150
-F 0 "#PWR?" H 2900 1000 50  0001 C CNN
+F 0 "#PWR0126" H 2900 1000 50  0001 C CNN
 F 1 "+5V" H 2915 1362 50  0000 C CNN
 F 2 "" H 2900 1150 50  0001 C CNN
 F 3 "" H 2900 1150 50  0001 C CNN
@@ -945,10 +938,10 @@ F 3 "" H 2900 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C5
 U 1 1 6036CB16
 P 3050 1250
-F 0 "C?" V 3231 1250 50  0000 C CNN
+F 0 "C5" V 3231 1250 50  0000 C CNN
 F 1 "1u" V 2889 1250 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3088 1100 50  0001 C CNN
 F 3 "~" H 3050 1250 50  0001 C CNN
@@ -958,10 +951,10 @@ $EndComp
 Wire Wire Line
 	3200 1250 3300 1250
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0127
 U 1 1 603722AD
 P 3300 1300
-F 0 "#PWR?" H 3300 1050 50  0001 C CNN
+F 0 "#PWR0127" H 3300 1050 50  0001 C CNN
 F 1 "GND" H 3400 1300 50  0000 C CNN
 F 2 "" H 3300 1300 50  0001 C CNN
 F 3 "" H 3300 1300 50  0001 C CNN
@@ -971,10 +964,10 @@ $EndComp
 Wire Wire Line
 	2900 1650 2850 1650
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0128
 U 1 1 60377D72
 P 2950 2250
-F 0 "#PWR?" H 2950 2000 50  0001 C CNN
+F 0 "#PWR0128" H 2950 2000 50  0001 C CNN
 F 1 "GND" H 3050 2250 50  0000 C CNN
 F 2 "" H 2950 2250 50  0001 C CNN
 F 3 "" H 2950 2250 50  0001 C CNN
@@ -988,23 +981,23 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x02_Male J5
 U 1 1 60304303
-P 4200 900
-F 0 "J5" H 4308 1081 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 4150 1200 50  0000 C CNN
-F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 4200 900 50  0001 C CNN
-F 3 "~" H 4200 900 50  0001 C CNN
-	1    4200 900 
+P 3800 900
+F 0 "J5" H 3908 1081 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 3750 1200 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 3800 900 50  0001 C CNN
+F 3 "~" H 3800 900 50  0001 C CNN
+	1    3800 900 
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x02_Male J6
 U 1 1 603052F1
-P 4250 1550
-F 0 "J6" H 4358 1731 50  0000 C CNN
-F 1 "Conn_01x02_Male" H 4150 1850 50  0000 C CNN
-F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 4250 1550 50  0001 C CNN
-F 3 "~" H 4250 1550 50  0001 C CNN
-	1    4250 1550
+P 3900 1550
+F 0 "J6" H 4008 1731 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 3800 1850 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 3900 1550 50  0001 C CNN
+F 3 "~" H 3900 1550 50  0001 C CNN
+	1    3900 1550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1034,10 +1027,10 @@ Wire Wire Line
 Text Notes 5500 1400 0    50   ~ 0
 Add pullups to 5V for SDA, SCL.\nAlso add 5V <-> 3V3 level shifters.
 $Comp
-L Transistor_FET:BSS138 Q?
+L Transistor_FET:BSS138 Q1
 U 1 1 604955DF
 P 4300 2700
-F 0 "Q?" V 4549 2700 50  0000 C CNN
+F 0 "Q1" V 4549 2700 50  0000 C CNN
 F 1 "BSS138" V 4640 2700 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 4500 2625 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 4300 2700 50  0001 L CNN
@@ -1045,10 +1038,10 @@ F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 4300 2700 50  0001 L 
 	0    1    1    0   
 $EndComp
 $Comp
-L Transistor_FET:BSS138 Q?
+L Transistor_FET:BSS138 Q2
 U 1 1 6049CE75
 P 4950 3150
-F 0 "Q?" V 5199 3150 50  0000 C CNN
+F 0 "Q2" V 5199 3150 50  0000 C CNN
 F 1 "BSS138" V 5290 3150 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 5150 3075 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF" H 4950 3150 50  0001 L CNN
@@ -1086,10 +1079,10 @@ F 3 "~" H 5900 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR0129
 U 1 1 60506AA1
 P 10550 950
-F 0 "#PWR?" H 10550 800 50  0001 C CNN
+F 0 "#PWR0129" H 10550 800 50  0001 C CNN
 F 1 "+3V3" H 10565 1162 50  0000 C CNN
 F 2 "" H 10550 950 50  0001 C CNN
 F 3 "" H 10550 950 50  0001 C CNN
@@ -1097,10 +1090,10 @@ F 3 "" H 10550 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR0130
 U 1 1 60551EE0
 P 7500 3150
-F 0 "#PWR?" H 7500 3000 50  0001 C CNN
+F 0 "#PWR0130" H 7500 3000 50  0001 C CNN
 F 1 "+3V3" H 7515 3362 50  0000 C CNN
 F 2 "" H 7500 3150 50  0001 C CNN
 F 3 "" H 7500 3150 50  0001 C CNN
@@ -1108,10 +1101,10 @@ F 3 "" H 7500 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR0131
 U 1 1 60559469
 P 7500 4000
-F 0 "#PWR?" H 7500 3850 50  0001 C CNN
+F 0 "#PWR0131" H 7500 3850 50  0001 C CNN
 F 1 "+3V3" H 7515 4212 50  0000 C CNN
 F 2 "" H 7500 4000 50  0001 C CNN
 F 3 "" H 7500 4000 50  0001 C CNN
@@ -1119,10 +1112,10 @@ F 3 "" H 7500 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR0132
 U 1 1 60560A7F
 P 7500 4950
-F 0 "#PWR?" H 7500 4800 50  0001 C CNN
+F 0 "#PWR0132" H 7500 4800 50  0001 C CNN
 F 1 "+3V3" H 7515 5162 50  0000 C CNN
 F 2 "" H 7500 4950 50  0001 C CNN
 F 3 "" H 7500 4950 50  0001 C CNN
@@ -1130,10 +1123,10 @@ F 3 "" H 7500 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR0133
 U 1 1 60567CE4
 P 7500 5750
-F 0 "#PWR?" H 7500 5600 50  0001 C CNN
+F 0 "#PWR0133" H 7500 5600 50  0001 C CNN
 F 1 "+3V3" H 7515 5962 50  0000 C CNN
 F 2 "" H 7500 5750 50  0001 C CNN
 F 3 "" H 7500 5750 50  0001 C CNN
@@ -1145,18 +1138,16 @@ Wire Wire Line
 $Comp
 L power:+5V #PWR0105
 U 1 1 5FF1407B
-P 2200 4200
-F 0 "#PWR0105" H 2200 4050 50  0001 C CNN
-F 1 "+5V" H 2215 4412 50  0000 C CNN
-F 2 "" H 2200 4200 50  0001 C CNN
-F 3 "" H 2200 4200 50  0001 C CNN
-	1    2200 4200
+P 2300 4050
+F 0 "#PWR0105" H 2300 3900 50  0001 C CNN
+F 1 "+5V" H 2315 4262 50  0000 C CNN
+F 2 "" H 2300 4050 50  0001 C CNN
+F 3 "" H 2300 4050 50  0001 C CNN
+	1    2300 4050
 	1    0    0    -1  
 $EndComp
 Text Notes 850  3550 0    50   ~ 0
 == Transceiver notes ==\nTie ~RE~ and DE lines together to \nsingle data direction pin on uC.\nA/B differential line needs to be connected to two connectors.\nAvoid stubs and sharp corners.\nA/B differential pair needs to be \nimpedance controlled to 120 Ohms.\n\nData direction line is common to all\nvariations of this board.
-Wire Wire Line
-	2200 4200 2200 4300
 Text Label 6250 2800 0    50   ~ 0
 SCL
 Text Label 6250 3250 0    50   ~ 0
@@ -1180,10 +1171,10 @@ Wire Wire Line
 Wire Wire Line
 	4300 2500 4300 2200
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR0134
 U 1 1 60616F10
 P 4300 2200
-F 0 "#PWR?" H 4300 2050 50  0001 C CNN
+F 0 "#PWR0134" H 4300 2050 50  0001 C CNN
 F 1 "+3V3" H 4315 2412 50  0000 C CNN
 F 2 "" H 4300 2200 50  0001 C CNN
 F 3 "" H 4300 2200 50  0001 C CNN
@@ -1191,10 +1182,10 @@ F 3 "" H 4300 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR?
+L power:+3V3 #PWR0135
 U 1 1 6061E986
 P 4950 2200
-F 0 "#PWR?" H 4950 2050 50  0001 C CNN
+F 0 "#PWR0135" H 4950 2050 50  0001 C CNN
 F 1 "+3V3" H 4965 2412 50  0000 C CNN
 F 2 "" H 4950 2200 50  0001 C CNN
 F 3 "" H 4950 2200 50  0001 C CNN
@@ -1202,10 +1193,10 @@ F 3 "" H 4950 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0136
 U 1 1 6062642B
 P 5400 2200
-F 0 "#PWR?" H 5400 2050 50  0001 C CNN
+F 0 "#PWR0136" H 5400 2050 50  0001 C CNN
 F 1 "+5V" H 5415 2412 50  0000 C CNN
 F 2 "" H 5400 2200 50  0001 C CNN
 F 3 "" H 5400 2200 50  0001 C CNN
@@ -1213,14 +1204,68 @@ F 3 "" H 5400 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0137
 U 1 1 60635974
 P 5900 2200
-F 0 "#PWR?" H 5900 2050 50  0001 C CNN
+F 0 "#PWR0137" H 5900 2050 50  0001 C CNN
 F 1 "+5V" H 5915 2412 50  0000 C CNN
 F 2 "" H 5900 2200 50  0001 C CNN
 F 3 "" H 5900 2200 50  0001 C CNN
 	1    5900 2200
 	1    0    0    -1  
 $EndComp
+Text Label 4100 1550 0    50   ~ 0
+A
+Text Label 4950 900  0    50   ~ 0
+B
+Wire Wire Line
+	2300 4050 2300 4500
+Wire Wire Line
+	2500 4050 2300 4050
+Connection ~ 2300 4050
+Wire Wire Line
+	1700 4750 1800 4750
+Wire Wire Line
+	1700 4850 1800 4850
+Wire Wire Line
+	1700 4950 1800 4950
+Wire Wire Line
+	1700 5050 1800 5050
+NoConn ~ 1800 5250
+NoConn ~ 1800 5400
+NoConn ~ 1800 5500
+NoConn ~ 1800 5600
+NoConn ~ 1800 5700
+$Comp
+L Connector:Conn_01x03_Male J?
+U 1 1 604D4C51
+P 4750 900
+F 0 "J?" H 4858 1181 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 4858 1090 50  0000 C CNN
+F 2 "" H 4750 900 50  0001 C CNN
+F 3 "~" H 4750 900 50  0001 C CNN
+	1    4750 900 
+	1    0    0    -1  
+$EndComp
+Text Label 5000 1400 0    50   ~ 0
+A
+Text Label 5000 1500 0    50   ~ 0
+B
+$Comp
+L Connector:Conn_01x03_Male J?
+U 1 1 60508E02
+P 4800 1500
+F 0 "J?" H 4908 1781 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 4908 1690 50  0000 C CNN
+F 2 "" H 4800 1500 50  0001 C CNN
+F 3 "~" H 4800 1500 50  0001 C CNN
+	1    4800 1500
+	1    0    0    -1  
+$EndComp
+Text Label 4950 1000 0    50   ~ 0
+Interrupt
+Text Label 5000 1600 0    50   ~ 0
+Interrupt
+Text Label 1800 5150 2    50   ~ 0
+Interrupt
 $EndSCHEMATC
