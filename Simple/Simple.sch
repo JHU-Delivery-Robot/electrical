@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Simple-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -53,10 +52,10 @@ Wire Wire Line
 Wire Wire Line
 	10100 4300 9700 4300
 $Comp
-L Connector:Conn_01x04_Male J8
+L Connector:Conn_01x04_Male US_conn2
 U 1 1 5FFCA8B5
 P 9500 4400
-F 0 "J8" H 9608 4681 50  0000 C CNN
+F 0 "US_conn2" H 9608 4681 50  0000 C CNN
 F 1 "Ultra2" H 9608 4590 50  0000 C CNN
 F 2 "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical" H 9500 4400 50  0001 C CNN
 F 3 "~" H 9500 4400 50  0001 C CNN
@@ -94,10 +93,10 @@ Wire Wire Line
 Wire Wire Line
 	10150 3250 9750 3250
 $Comp
-L Connector:Conn_01x04_Male J7
+L Connector:Conn_01x04_Male US_conn1
 U 1 1 5FFBB811
 P 9550 3350
-F 0 "J7" H 9658 3631 50  0000 C CNN
+F 0 "US_conn1" H 9658 3631 50  0000 C CNN
 F 1 "Ultra1" H 9658 3540 50  0000 C CNN
 F 2 "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical" H 9550 3350 50  0001 C CNN
 F 3 "~" H 9550 3350 50  0001 C CNN
@@ -223,10 +222,10 @@ SDA_3V3
 Text Label 7100 3100 0    50   ~ 0
 SCL_3V3
 $Comp
-L Simple-rescue:PowerRegulator-My_custom_simple_lib-Simple-rescue U1
+L Simple-rescue:PowerRegulator-My_custom_simple_lib-Simple-rescue PwrConv1
 U 1 1 600825A1
 P 9050 1200
-F 0 "U1" H 9050 1615 50  0000 C CNN
+F 0 "PwrConv1" H 9050 1615 50  0000 C CNN
 F 1 "AP7366" H 9050 1524 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 9150 1600 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/AP7366.pdf" H 9150 1600 50  0001 C CNN
@@ -274,10 +273,10 @@ Input (5V)
 Text Notes 10650 950  0    50   ~ 0
 Output (3V3)
 $Comp
-L Connector:Conn_01x02_Female J10
+L Connector:Conn_01x02_Female POW_IN1
 U 1 1 6022062E
 P 6950 1050
-F 0 "J10" H 6978 1026 50  0000 L CNN
+F 0 "POW_IN1" H 6978 1026 50  0000 L CNN
 F 1 "Conn_01x02_Female" H 6978 935 50  0000 L CNN
 F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 6950 1050 50  0001 C CNN
 F 3 "~" H 6950 1050 50  0001 C CNN
@@ -505,10 +504,10 @@ F 3 "" H 3700 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x03_Male J9
+L Connector:Conn_01x03_Male RESET1
 U 1 1 601E7023
 P 4000 4750
-F 0 "J9" H 4108 5031 50  0000 C CNN
+F 0 "RESET1" H 4108 5031 50  0000 C CNN
 F 1 "Conn_01x03_Male" H 4108 4940 50  0000 C CNN
 F 2 "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical" H 4000 4750 50  0001 C CNN
 F 3 "~" H 4000 4750 50  0001 C CNN
@@ -573,7 +572,7 @@ U 1 1 6016C315
 P 2950 6400
 F 0 "SW1" V 2996 6352 50  0000 R CNN
 F 1 "SW_Push" V 2905 6352 50  0000 R CNN
-F 2 "" H 2950 6600 50  0001 C CNN
+F 2 "SimpleUCLib:SW_SPST_PTS815" H 2950 6600 50  0001 C CNN
 F 3 "~" H 2950 6600 50  0001 C CNN
 	1    2950 6400
 	0    -1   -1   0   
@@ -635,10 +634,10 @@ F 3 "" H 3550 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x05_Male J1
+L Connector:Conn_01x05_Male IR_conn1
 U 1 1 5FF19BD4
 P 6650 3300
-F 0 "J1" H 6758 3681 50  0000 C CNN
+F 0 "IR_conn1" H 6758 3681 50  0000 C CNN
 F 1 "IR1" H 6758 3590 50  0000 C CNN
 F 2 "Connector_JST:JST_PH_B5B-PH-K_1x05_P2.00mm_Vertical" H 6650 3300 50  0001 C CNN
 F 3 "~" H 6650 3300 50  0001 C CNN
@@ -646,10 +645,10 @@ F 3 "~" H 6650 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x05_Male J2
+L Connector:Conn_01x05_Male IR_conn2
 U 1 1 5FF2DD12
 P 6650 4150
-F 0 "J2" H 6758 4531 50  0000 C CNN
+F 0 "IR_conn2" H 6758 4531 50  0000 C CNN
 F 1 "IR2" H 6758 4440 50  0000 C CNN
 F 2 "Connector_JST:JST_PH_B5B-PH-K_1x05_P2.00mm_Vertical" H 6650 4150 50  0001 C CNN
 F 3 "~" H 6650 4150 50  0001 C CNN
@@ -657,10 +656,10 @@ F 3 "~" H 6650 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x05_Male J3
+L Connector:Conn_01x05_Male IR_conn3
 U 1 1 5FF2FBC4
 P 6650 5050
-F 0 "J3" H 6758 5431 50  0000 C CNN
+F 0 "IR_conn3" H 6758 5431 50  0000 C CNN
 F 1 "IR3" H 6758 5340 50  0000 C CNN
 F 2 "Connector_JST:JST_PH_B5B-PH-K_1x05_P2.00mm_Vertical" H 6650 5050 50  0001 C CNN
 F 3 "~" H 6650 5050 50  0001 C CNN
@@ -668,10 +667,10 @@ F 3 "~" H 6650 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x05_Male J4
+L Connector:Conn_01x05_Male IR_conn4
 U 1 1 5FF30FD7
 P 6650 5900
-F 0 "J4" H 6758 6281 50  0000 C CNN
+F 0 "IR_conn4" H 6758 6281 50  0000 C CNN
 F 1 "IR4" H 6758 6190 50  0000 C CNN
 F 2 "Connector_JST:JST_PH_B5B-PH-K_1x05_P2.00mm_Vertical" H 6650 5900 50  0001 C CNN
 F 3 "~" H 6650 5900 50  0001 C CNN
@@ -708,10 +707,10 @@ $EndComp
 Wire Wire Line
 	8700 1050 8550 1050
 $Comp
-L Connector:Conn_01x07_Male J11
+L Connector:Conn_01x07_Male Motor_conn1
 U 1 1 6049DA52
 P 8200 3550
-F 0 "J11" H 8308 4031 50  0000 C CNN
+F 0 "Motor_conn1" H 8308 4031 50  0000 C CNN
 F 1 "Motor1" H 8308 3940 50  0000 C CNN
 F 2 "Connector_JST:JST_PH_B7B-PH-K_1x07_P2.00mm_Vertical" H 8200 3550 50  0001 C CNN
 F 3 "~" H 8200 3550 50  0001 C CNN
@@ -724,19 +723,15 @@ Wire Wire Line
 	8750 3350 8400 3350
 Wire Wire Line
 	8750 3450 8400 3450
-Wire Wire Line
-	8750 3550 8400 3550
-Wire Wire Line
-	8750 3650 8400 3650
-Text Label 8750 3250 0    50   ~ 0
+Text Label 8750 3750 0    50   ~ 0
 SCL
-Text Label 8750 3350 0    50   ~ 0
+Text Label 8750 3850 0    50   ~ 0
 SDA
-Text Label 8750 3550 0    50   ~ 0
-DIR1
-Text Label 8750 3650 0    50   ~ 0
-SPEED1
 Text Label 8750 3450 0    50   ~ 0
+DIR1
+Text Label 8750 3250 0    50   ~ 0
+SPEED1
+Text Label 8750 3350 0    50   ~ 0
 INPUT1
 Wire Wire Line
 	3500 4500 3500 4650
@@ -754,94 +749,40 @@ $EndComp
 $Comp
 L power:+5V #PWR0116
 U 1 1 604C7E63
-P 9100 3550
-F 0 "#PWR0116" H 9100 3400 50  0001 C CNN
-F 1 "+5V" H 9115 3762 50  0000 C CNN
-F 2 "" H 9100 3550 50  0001 C CNN
-F 3 "" H 9100 3550 50  0001 C CNN
-	1    9100 3550
+P 9100 3350
+F 0 "#PWR0116" H 9100 3200 50  0001 C CNN
+F 1 "+5V" H 9115 3562 50  0000 C CNN
+F 2 "" H 9100 3350 50  0001 C CNN
+F 3 "" H 9100 3350 50  0001 C CNN
+	1    9100 3350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8400 3750 9100 3750
+	9100 3350 9100 3550
 Wire Wire Line
-	9100 3550 9100 3750
-Wire Wire Line
-	9100 3850 9100 3900
+	9100 3650 9100 3700
 $Comp
 L power:GND #PWR0122
 U 1 1 604D2217
-P 9100 3900
-F 0 "#PWR0122" H 9100 3650 50  0001 C CNN
-F 1 "GND" H 9105 3727 50  0000 C CNN
-F 2 "" H 9100 3900 50  0001 C CNN
-F 3 "" H 9100 3900 50  0001 C CNN
-	1    9100 3900
+P 9100 3700
+F 0 "#PWR0122" H 9100 3450 50  0001 C CNN
+F 1 "GND" H 9105 3527 50  0000 C CNN
+F 2 "" H 9100 3700 50  0001 C CNN
+F 3 "" H 9100 3700 50  0001 C CNN
+	1    9100 3700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8400 3850 9100 3850
 $Comp
-L Connector:Conn_01x07_Male J12
+L Connector:Conn_01x07_Male Motor_conn2
 U 1 1 604E1883
 P 8200 4550
-F 0 "J12" H 8308 5031 50  0000 C CNN
+F 0 "Motor_conn2" H 8308 5031 50  0000 C CNN
 F 1 "Motor2" H 8308 4940 50  0000 C CNN
 F 2 "Connector_JST:JST_PH_B7B-PH-K_1x07_P2.00mm_Vertical" H 8200 4550 50  0001 C CNN
 F 3 "~" H 8200 4550 50  0001 C CNN
 	1    8200 4550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8750 4250 8400 4250
-Wire Wire Line
-	8750 4350 8400 4350
-Wire Wire Line
-	8750 4450 8400 4450
-Wire Wire Line
-	8750 4550 8400 4550
-Wire Wire Line
-	8750 4650 8400 4650
-Text Label 8750 4250 0    50   ~ 0
-SCL
-Text Label 8750 4350 0    50   ~ 0
-SDA
-Text Label 8750 4550 0    50   ~ 0
-DIR2
-Text Label 8750 4650 0    50   ~ 0
-SPEED2
-Text Label 8750 4450 0    50   ~ 0
-INPUT2
-$Comp
-L power:+5V #PWR0124
-U 1 1 604E1893
-P 9100 4550
-F 0 "#PWR0124" H 9100 4400 50  0001 C CNN
-F 1 "+5V" H 9115 4762 50  0000 C CNN
-F 2 "" H 9100 4550 50  0001 C CNN
-F 3 "" H 9100 4550 50  0001 C CNN
-	1    9100 4550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8400 4750 9100 4750
-Wire Wire Line
-	9100 4550 9100 4750
-Wire Wire Line
-	9100 4850 9100 4900
-$Comp
-L power:GND #PWR0125
-U 1 1 604E189C
-P 9100 4900
-F 0 "#PWR0125" H 9100 4650 50  0001 C CNN
-F 1 "GND" H 9105 4727 50  0000 C CNN
-F 2 "" H 9100 4900 50  0001 C CNN
-F 3 "" H 9100 4900 50  0001 C CNN
-	1    9100 4900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8400 4850 9100 4850
 NoConn ~ 9400 1250
 $Comp
 L Device:C C3
@@ -869,11 +810,9 @@ Connection ~ 8550 1050
 Wire Wire Line
 	8550 1050 8300 1050
 Text Label 3000 1850 0    50   ~ 0
-A
+D+
 Text Label 4050 800  0    50   ~ 0
-A
-Text Label 3000 1750 0    50   ~ 0
-B
+D+
 Text Label 1250 1950 2    50   ~ 0
 TXD
 Text Label 1250 1650 2    50   ~ 0
@@ -890,10 +829,10 @@ Wire Wire Line
 Wire Wire Line
 	2900 1250 2900 1650
 $Comp
-L 2021-02-20_05-48-50:SP485CN-L_TR U2
+L 2021-02-20_05-48-50:SP485CN-L_TR TR3
 U 1 1 603100F0
 P 1250 1650
-F 0 "U2" H 2050 2037 60  0000 C CNN
+F 0 "TR3" H 2050 2037 60  0000 C CNN
 F 1 "SP485CN-L_TR" H 2050 1931 60  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2050 1890 60  0001 C CNN
 F 3 "https://www.digikey.com/en/products/detail/maxlinear-inc/SP485CN-L-TR/2471959" H 2050 1931 60  0001 C CNN
@@ -1149,7 +1088,7 @@ F 3 "" H 5900 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 4050 900  0    50   ~ 0
-B
+D-
 Wire Wire Line
 	2300 4050 2300 4500
 Wire Wire Line
@@ -1163,26 +1102,15 @@ Wire Wire Line
 	1700 4950 1800 4950
 Wire Wire Line
 	1700 5050 1800 5050
-$Comp
-L Connector:Conn_01x03_Male J5
-U 1 1 604D4C51
-P 3850 900
-F 0 "J5" H 3958 1181 50  0000 C CNN
-F 1 "Conn_01x03_Male" H 3958 1090 50  0000 C CNN
-F 2 "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical" H 3850 900 50  0001 C CNN
-F 3 "~" H 3850 900 50  0001 C CNN
-	1    3850 900 
-	1    0    0    -1  
-$EndComp
 Text Label 4100 1400 0    50   ~ 0
-A
+D+
 Text Label 4100 1500 0    50   ~ 0
-B
+D-
 $Comp
-L Connector:Conn_01x03_Male J13
+L Connector:Conn_01x03_Male TR2
 U 1 1 60508E02
 P 3900 1500
-F 0 "J13" H 4008 1781 50  0000 C CNN
+F 0 "TR2" H 4008 1781 50  0000 C CNN
 F 1 "Conn_01x03_Male" H 4008 1690 50  0000 C CNN
 F 2 "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical" H 3900 1500 50  0001 C CNN
 F 3 "~" H 3900 1500 50  0001 C CNN
@@ -1200,12 +1128,12 @@ DataDirWrite
 Text Notes 7250 900  2    50   ~ 0
 Power input
 $Comp
-L Simple-rescue:ATtiny816-MN-Simple-rescue U3
+L Simple-rescue:ATtiny816-MN-Simple-rescue ATTINY816
 U 1 1 5FF12ACE
 P 2300 5150
-F 0 "U3" H 1850 5850 50  0000 C CNN
+F 0 "ATTINY816" H 1850 5850 50  0000 C CNN
 F 1 "ATtiny816-SS" H 1850 5750 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 2300 5150 50  0001 C CIN
+F 2 "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm" H 2300 5150 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/40001912A.pdf" H 2300 5150 50  0001 C CNN
 	1    2300 5150
 	1    0    0    -1  
@@ -1219,12 +1147,12 @@ Wire Wire Line
 Wire Wire Line
 	1700 5400 1800 5400
 $Comp
-L Connector:Conn_01x08_Male J14
+L Connector:Conn_01x08_Male Extra1
 U 1 1 6057FB03
 P 800 5800
-F 0 "J14" H 906 6278 50  0000 C CNN
-F 1 "Conn_01x04_Male" H 906 6187 50  0000 C CNN
-F 2 "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical" H 800 5800 50  0001 C CNN
+F 0 "Extra1" H 906 6278 50  0000 C CNN
+F 1 "Conn_01x08_Male" H 906 6187 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_B8B-PH-K_1x08_P2.00mm_Vertical" H 800 5800 50  0001 C CNN
 F 3 "~" H 800 5800 50  0001 C CNN
 	1    800  5800
 	1    0    0    -1  
@@ -1423,4 +1351,75 @@ Text Label 4150 6650 2    50   ~ 0
 PA7
 Text Notes 6200 7300 2    50   ~ 0
 Power and debugging LEDs
+Wire Wire Line
+	8400 3750 8750 3750
+Wire Wire Line
+	8750 3850 8400 3850
+Wire Wire Line
+	8400 3550 9100 3550
+Wire Wire Line
+	8400 3650 9100 3650
+Wire Wire Line
+	8750 4250 8400 4250
+Wire Wire Line
+	8750 4350 8400 4350
+Wire Wire Line
+	8750 4450 8400 4450
+Text Label 8750 4750 0    50   ~ 0
+SCL
+Text Label 8750 4850 0    50   ~ 0
+SDA
+Text Label 8750 4450 0    50   ~ 0
+DIR2
+Text Label 8750 4250 0    50   ~ 0
+SPEED2
+Text Label 8750 4350 0    50   ~ 0
+INPUT2
+$Comp
+L power:+5V #PWR0124
+U 1 1 606E093C
+P 9100 4350
+F 0 "#PWR0124" H 9100 4200 50  0001 C CNN
+F 1 "+5V" H 9115 4562 50  0000 C CNN
+F 2 "" H 9100 4350 50  0001 C CNN
+F 3 "" H 9100 4350 50  0001 C CNN
+	1    9100 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 4350 9100 4550
+Wire Wire Line
+	9100 4650 9100 4700
+$Comp
+L power:GND #PWR0125
+U 1 1 606E0944
+P 9100 4700
+F 0 "#PWR0125" H 9100 4450 50  0001 C CNN
+F 1 "GND" H 9105 4527 50  0000 C CNN
+F 2 "" H 9100 4700 50  0001 C CNN
+F 3 "" H 9100 4700 50  0001 C CNN
+	1    9100 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 4750 8750 4750
+Wire Wire Line
+	8750 4850 8400 4850
+Wire Wire Line
+	8400 4550 9100 4550
+Wire Wire Line
+	8400 4650 9100 4650
+Text Label 3000 1750 0    50   ~ 0
+D-
+$Comp
+L Connector:Conn_01x03_Male TR1
+U 1 1 604D4C51
+P 3850 900
+F 0 "TR1" H 3958 1181 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 3958 1090 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical" H 3850 900 50  0001 C CNN
+F 3 "~" H 3850 900 50  0001 C CNN
+	1    3850 900 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
