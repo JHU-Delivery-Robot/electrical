@@ -723,19 +723,15 @@ Wire Wire Line
 	8750 3350 8400 3350
 Wire Wire Line
 	8750 3450 8400 3450
-Wire Wire Line
-	8750 3550 8400 3550
-Wire Wire Line
-	8750 3650 8400 3650
-Text Label 8750 3250 0    50   ~ 0
+Text Label 8750 3750 0    50   ~ 0
 SCL
-Text Label 8750 3350 0    50   ~ 0
+Text Label 8750 3850 0    50   ~ 0
 SDA
-Text Label 8750 3550 0    50   ~ 0
-DIR1
-Text Label 8750 3650 0    50   ~ 0
-SPEED1
 Text Label 8750 3450 0    50   ~ 0
+DIR1
+Text Label 8750 3250 0    50   ~ 0
+SPEED1
+Text Label 8750 3350 0    50   ~ 0
 INPUT1
 Wire Wire Line
 	3500 4500 3500 4650
@@ -753,33 +749,29 @@ $EndComp
 $Comp
 L power:+5V #PWR0116
 U 1 1 604C7E63
-P 9100 3550
-F 0 "#PWR0116" H 9100 3400 50  0001 C CNN
-F 1 "+5V" H 9115 3762 50  0000 C CNN
-F 2 "" H 9100 3550 50  0001 C CNN
-F 3 "" H 9100 3550 50  0001 C CNN
-	1    9100 3550
+P 9100 3350
+F 0 "#PWR0116" H 9100 3200 50  0001 C CNN
+F 1 "+5V" H 9115 3562 50  0000 C CNN
+F 2 "" H 9100 3350 50  0001 C CNN
+F 3 "" H 9100 3350 50  0001 C CNN
+	1    9100 3350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8400 3750 9100 3750
+	9100 3350 9100 3550
 Wire Wire Line
-	9100 3550 9100 3750
-Wire Wire Line
-	9100 3850 9100 3900
+	9100 3650 9100 3700
 $Comp
 L power:GND #PWR0122
 U 1 1 604D2217
-P 9100 3900
-F 0 "#PWR0122" H 9100 3650 50  0001 C CNN
-F 1 "GND" H 9105 3727 50  0000 C CNN
-F 2 "" H 9100 3900 50  0001 C CNN
-F 3 "" H 9100 3900 50  0001 C CNN
-	1    9100 3900
+P 9100 3700
+F 0 "#PWR0122" H 9100 3450 50  0001 C CNN
+F 1 "GND" H 9105 3527 50  0000 C CNN
+F 2 "" H 9100 3700 50  0001 C CNN
+F 3 "" H 9100 3700 50  0001 C CNN
+	1    9100 3700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8400 3850 9100 3850
 $Comp
 L Connector:Conn_01x07_Male Motor_conn2
 U 1 1 604E1883
@@ -791,56 +783,6 @@ F 3 "~" H 8200 4550 50  0001 C CNN
 	1    8200 4550
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8750 4250 8400 4250
-Wire Wire Line
-	8750 4350 8400 4350
-Wire Wire Line
-	8750 4450 8400 4450
-Wire Wire Line
-	8750 4550 8400 4550
-Wire Wire Line
-	8750 4650 8400 4650
-Text Label 8750 4250 0    50   ~ 0
-SCL
-Text Label 8750 4350 0    50   ~ 0
-SDA
-Text Label 8750 4550 0    50   ~ 0
-DIR2
-Text Label 8750 4650 0    50   ~ 0
-SPEED2
-Text Label 8750 4450 0    50   ~ 0
-INPUT2
-$Comp
-L power:+5V #PWR0124
-U 1 1 604E1893
-P 9100 4550
-F 0 "#PWR0124" H 9100 4400 50  0001 C CNN
-F 1 "+5V" H 9115 4762 50  0000 C CNN
-F 2 "" H 9100 4550 50  0001 C CNN
-F 3 "" H 9100 4550 50  0001 C CNN
-	1    9100 4550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8400 4750 9100 4750
-Wire Wire Line
-	9100 4550 9100 4750
-Wire Wire Line
-	9100 4850 9100 4900
-$Comp
-L power:GND #PWR0125
-U 1 1 604E189C
-P 9100 4900
-F 0 "#PWR0125" H 9100 4650 50  0001 C CNN
-F 1 "GND" H 9105 4727 50  0000 C CNN
-F 2 "" H 9100 4900 50  0001 C CNN
-F 3 "" H 9100 4900 50  0001 C CNN
-	1    9100 4900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8400 4850 9100 4850
 NoConn ~ 9400 1250
 $Comp
 L Device:C C3
@@ -868,11 +810,9 @@ Connection ~ 8550 1050
 Wire Wire Line
 	8550 1050 8300 1050
 Text Label 3000 1850 0    50   ~ 0
-A
+D+
 Text Label 4050 800  0    50   ~ 0
-A
-Text Label 3000 1750 0    50   ~ 0
-B
+D+
 Text Label 1250 1950 2    50   ~ 0
 TXD
 Text Label 1250 1650 2    50   ~ 0
@@ -1148,7 +1088,7 @@ F 3 "" H 5900 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 4050 900  0    50   ~ 0
-B
+D-
 Wire Wire Line
 	2300 4050 2300 4500
 Wire Wire Line
@@ -1162,21 +1102,10 @@ Wire Wire Line
 	1700 4950 1800 4950
 Wire Wire Line
 	1700 5050 1800 5050
-$Comp
-L Connector:Conn_01x03_Male TR1
-U 1 1 604D4C51
-P 3850 900
-F 0 "TR1" H 3958 1181 50  0000 C CNN
-F 1 "Conn_01x03_Male" H 3958 1090 50  0000 C CNN
-F 2 "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical" H 3850 900 50  0001 C CNN
-F 3 "~" H 3850 900 50  0001 C CNN
-	1    3850 900 
-	1    0    0    -1  
-$EndComp
 Text Label 4100 1400 0    50   ~ 0
-A
+D+
 Text Label 4100 1500 0    50   ~ 0
-B
+D-
 $Comp
 L Connector:Conn_01x03_Male TR2
 U 1 1 60508E02
@@ -1204,7 +1133,7 @@ U 1 1 5FF12ACE
 P 2300 5150
 F 0 "ATTINY816" H 1850 5850 50  0000 C CNN
 F 1 "ATtiny816-SS" H 1850 5750 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 2300 5150 50  0001 C CIN
+F 2 "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm" H 2300 5150 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/40001912A.pdf" H 2300 5150 50  0001 C CNN
 	1    2300 5150
 	1    0    0    -1  
@@ -1422,4 +1351,75 @@ Text Label 4150 6650 2    50   ~ 0
 PA7
 Text Notes 6200 7300 2    50   ~ 0
 Power and debugging LEDs
+Wire Wire Line
+	8400 3750 8750 3750
+Wire Wire Line
+	8750 3850 8400 3850
+Wire Wire Line
+	8400 3550 9100 3550
+Wire Wire Line
+	8400 3650 9100 3650
+Wire Wire Line
+	8750 4250 8400 4250
+Wire Wire Line
+	8750 4350 8400 4350
+Wire Wire Line
+	8750 4450 8400 4450
+Text Label 8750 4750 0    50   ~ 0
+SCL
+Text Label 8750 4850 0    50   ~ 0
+SDA
+Text Label 8750 4450 0    50   ~ 0
+DIR2
+Text Label 8750 4250 0    50   ~ 0
+SPEED2
+Text Label 8750 4350 0    50   ~ 0
+INPUT2
+$Comp
+L power:+5V #PWR0124
+U 1 1 606E093C
+P 9100 4350
+F 0 "#PWR0124" H 9100 4200 50  0001 C CNN
+F 1 "+5V" H 9115 4562 50  0000 C CNN
+F 2 "" H 9100 4350 50  0001 C CNN
+F 3 "" H 9100 4350 50  0001 C CNN
+	1    9100 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 4350 9100 4550
+Wire Wire Line
+	9100 4650 9100 4700
+$Comp
+L power:GND #PWR0125
+U 1 1 606E0944
+P 9100 4700
+F 0 "#PWR0125" H 9100 4450 50  0001 C CNN
+F 1 "GND" H 9105 4527 50  0000 C CNN
+F 2 "" H 9100 4700 50  0001 C CNN
+F 3 "" H 9100 4700 50  0001 C CNN
+	1    9100 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8400 4750 8750 4750
+Wire Wire Line
+	8750 4850 8400 4850
+Wire Wire Line
+	8400 4550 9100 4550
+Wire Wire Line
+	8400 4650 9100 4650
+Text Label 3000 1750 0    50   ~ 0
+D-
+$Comp
+L Connector:Conn_01x03_Male TR1
+U 1 1 604D4C51
+P 3850 900
+F 0 "TR1" H 3958 1181 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 3958 1090 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical" H 3850 900 50  0001 C CNN
+F 3 "~" H 3850 900 50  0001 C CNN
+	1    3850 900 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

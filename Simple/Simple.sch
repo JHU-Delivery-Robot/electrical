@@ -467,7 +467,7 @@ Text Label 5200 4000 2    50   ~ 0
 SensorIO6
 Text Label 5200 4500 2    50   ~ 0
 SensorIO5
-Text Label 1700 5150 2    50   ~ 0
+Text Label 1700 5250 2    50   ~ 0
 ~DataDirRead
 Text Label 5200 4950 2    50   ~ 0
 SensorIO4
@@ -1121,8 +1121,6 @@ Text Label 4050 1000 0    50   ~ 0
 Interrupt
 Text Label 4100 1600 0    50   ~ 0
 Interrupt
-Text Label 1700 5400 2    50   ~ 0
-Interrupt
 Text Label 1150 1850 2    50   ~ 0
 DataDirWrite
 Text Notes 7250 900  2    50   ~ 0
@@ -1138,23 +1136,21 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/40001912A.pdf" H 2300 5150 
 	1    2300 5150
 	1    0    0    -1  
 $EndComp
-Text Label 1700 5250 2    50   ~ 0
+Text Label 2950 5450 0    50   ~ 0
 DataDirWrite
 Wire Wire Line
 	1700 5250 1800 5250
 Wire Wire Line
 	1800 5150 1700 5150
-Wire Wire Line
-	1700 5400 1800 5400
 $Comp
 L Connector:Conn_01x08_Male Extra1
 U 1 1 6057FB03
-P 800 5800
-F 0 "Extra1" H 906 6278 50  0000 C CNN
-F 1 "Conn_01x08_Male" H 906 6187 50  0000 C CNN
-F 2 "Connector_JST:JST_PH_B8B-PH-K_1x08_P2.00mm_Vertical" H 800 5800 50  0001 C CNN
-F 3 "~" H 800 5800 50  0001 C CNN
-	1    800  5800
+P 800 5700
+F 0 "Extra1" H 906 6178 50  0000 C CNN
+F 1 "Conn_01x08_Male" H 906 6087 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_B8B-PH-K_1x08_P2.00mm_Vertical" H 800 5700 50  0001 C CNN
+F 3 "~" H 800 5700 50  0001 C CNN
+	1    800  5700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1162,15 +1158,11 @@ Wire Wire Line
 Wire Wire Line
 	1800 5600 1000 5600
 Wire Wire Line
-	1000 5700 1800 5700
-Wire Wire Line
-	1000 5800 1150 5800
-Text Label 1150 5800 0    50   ~ 0
-PA7
+	1000 5700 1650 5700
 Wire Wire Line
 	2800 5450 2950 5450
-Text Label 2950 5450 0    50   ~ 0
-PA7
+Text Label 1700 5150 2    50   ~ 0
+Interrupt
 Text Notes 650  6750 0    50   ~ 0
 General purpose I/O \nbreakout pins
 $Comp
@@ -1217,84 +1209,84 @@ Wire Wire Line
 Text Notes 5650 900  0    50   ~ 0
 Daisy-chained \npower connector 
 Wire Wire Line
-	1000 5900 1150 5900
+	1000 5800 1150 5800
 Wire Wire Line
-	1150 6000 1000 6000
+	1150 5900 1000 5900
 Wire Wire Line
-	1000 6100 1150 6100
+	1000 6000 1150 6000
+Wire Wire Line
+	1150 6000 1150 6100
+Wire Wire Line
+	1150 6100 1000 6100
+Connection ~ 1150 6100
 Wire Wire Line
 	1150 6100 1150 6200
-Wire Wire Line
-	1150 6200 1000 6200
-Connection ~ 1150 6200
-Wire Wire Line
-	1150 6200 1150 6300
 $Comp
 L power:GND #PWR05
 U 1 1 605D578E
-P 1150 6300
-F 0 "#PWR05" H 1150 6050 50  0001 C CNN
-F 1 "GND" H 1155 6127 50  0000 C CNN
-F 2 "" H 1150 6300 50  0001 C CNN
-F 3 "" H 1150 6300 50  0001 C CNN
-	1    1150 6300
+P 1150 6200
+F 0 "#PWR05" H 1150 5950 50  0001 C CNN
+F 1 "GND" H 1155 6027 50  0000 C CNN
+F 2 "" H 1150 6200 50  0001 C CNN
+F 3 "" H 1150 6200 50  0001 C CNN
+	1    1150 6200
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR03
 U 1 1 605D5831
+P 1150 5800
+F 0 "#PWR03" H 1150 5650 50  0001 C CNN
+F 1 "+5V" V 1165 5928 50  0000 L CNN
+F 2 "" H 1150 5800 50  0001 C CNN
+F 3 "" H 1150 5800 50  0001 C CNN
+	1    1150 5800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR04
+U 1 1 605D5906
 P 1150 5900
-F 0 "#PWR03" H 1150 5750 50  0001 C CNN
-F 1 "+5V" V 1165 6028 50  0000 L CNN
+F 0 "#PWR04" H 1150 5750 50  0001 C CNN
+F 1 "+3V3" V 1165 6028 50  0000 L CNN
 F 2 "" H 1150 5900 50  0001 C CNN
 F 3 "" H 1150 5900 50  0001 C CNN
 	1    1150 5900
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+3V3 #PWR04
-U 1 1 605D5906
-P 1150 6000
-F 0 "#PWR04" H 1150 5850 50  0001 C CNN
-F 1 "+3V3" V 1165 6128 50  0000 L CNN
-F 2 "" H 1150 6000 50  0001 C CNN
-F 3 "" H 1150 6000 50  0001 C CNN
-	1    1150 6000
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:LED D1
 U 1 1 605DF6F7
-P 4150 7200
-F 0 "D1" V 4188 7083 50  0000 R CNN
-F 1 "LED" V 4097 7083 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric" H 4150 7200 50  0001 C CNN
-F 3 "~" H 4150 7200 50  0001 C CNN
-	1    4150 7200
+P 1650 6150
+F 0 "D1" V 1688 6033 50  0000 R CNN
+F 1 "LED" V 1597 6033 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 1650 6150 50  0001 C CNN
+F 3 "~" H 1650 6150 50  0001 C CNN
+	1    1650 6150
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR07
 U 1 1 605DF89B
-P 4150 7450
-F 0 "#PWR07" H 4150 7200 50  0001 C CNN
-F 1 "GND" H 4155 7277 50  0000 C CNN
-F 2 "" H 4150 7450 50  0001 C CNN
-F 3 "" H 4150 7450 50  0001 C CNN
-	1    4150 7450
+P 1650 6400
+F 0 "#PWR07" H 1650 6150 50  0001 C CNN
+F 1 "GND" H 1655 6227 50  0000 C CNN
+F 2 "" H 1650 6400 50  0001 C CNN
+F 3 "" H 1650 6400 50  0001 C CNN
+	1    1650 6400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4150 7450 4150 7350
+	1650 6400 1650 6300
 $Comp
 L Device:R R1
 U 1 1 606058D7
-P 4150 6900
-F 0 "R1" H 4220 6946 50  0000 L CNN
-F 1 "R" H 4220 6855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4080 6900 50  0001 C CNN
-F 3 "~" H 4150 6900 50  0001 C CNN
-	1    4150 6900
+P 1650 5850
+F 0 "R1" H 1720 5896 50  0000 L CNN
+F 1 "R" H 1720 5805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1580 5850 50  0001 C CNN
+F 3 "~" H 1650 5850 50  0001 C CNN
+	1    1650 5850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1333,8 +1325,6 @@ F 3 "~" H 4650 6900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4150 6750 4150 6650
-Wire Wire Line
 	4650 6650 4650 6750
 $Comp
 L power:+5V #PWR06
@@ -1347,8 +1337,6 @@ F 3 "" H 4650 6650 50  0001 C CNN
 	1    4650 6650
 	1    0    0    -1  
 $EndComp
-Text Label 4150 6650 2    50   ~ 0
-PA7
 Text Notes 6200 7300 2    50   ~ 0
 Power and debugging LEDs
 Wire Wire Line
@@ -1422,4 +1410,9 @@ F 3 "~" H 3850 900 50  0001 C CNN
 	1    3850 900 
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1800 5400 1000 5400
+Connection ~ 1650 5700
+Wire Wire Line
+	1650 5700 1800 5700
 $EndSCHEMATC
