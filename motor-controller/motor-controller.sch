@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Brushless DC Motor Controller"
-Date "2021-03-19"
-Rev "0.0.3"
+Date "2021-04-12"
+Rev "0.0.5"
 Comp "JHU Deliverbot Project"
 Comment1 "Drafted by @avnoks"
 Comment2 ""
@@ -120,8 +120,9 @@ P 5400 1750
 F 0 "L1" V 5222 1750 50  0000 C CNN
 F 1 "47u" V 5313 1750 50  0000 C CNN
 F 2 "Inductor_SMD:L_Taiyo-Yuden_NR-60xx" H 5400 1750 50  0001 C CNN
-F 3 "~" H 5400 1750 50  0001 C CNN
+F 3 "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=NRS6045T470MMGK%20%20&u=M" H 5400 1750 50  0001 C CNN
 F 4 "https://www.digikey.com/en/products/detail/taiyo-yuden/NRS6045T470MMGK/2665994" V 5400 1750 50  0001 C CNN "Purchase link, Digi-Key"
+F 5 "587-2956-6-ND" V 5400 1750 50  0001 C CNN "Digi-Key part number"
 	1    5400 1750
 	0    1    1    0   
 $EndComp
@@ -259,7 +260,9 @@ F 0 "J3" H 1200 5650 50  0000 C CNN
 F 1 "MCU-IO" H 1200 5550 50  0000 C CNN
 F 2 "Connector_JST:JST_XH_B07B-XH-A_1x07_P2.50mm_Vertical" H 1100 5150 50  0001 C CNN
 F 3 "http://www.jst-mfg.com/product/pdf/eng/eXH.pdf" H 1100 5150 50  0001 C CNN
-F 4 "https://www.digikey.com/en/products/detail/jst-sales-america-inc/B5B-XH-AM-LF-SN/1651037" H 1100 5150 50  0001 C CNN "Purchase link, Digi-Key"
+F 4 "https://www.digikey.com/en/products/detail/jst-sales-america-inc/B7B-XH-A-LF-SN/1651050" H 1100 5150 50  0001 C CNN "Purchase link, Digi-Key"
+F 5 "455-2252-ND" H 1100 5150 50  0001 C CNN "Digi-Key part number"
+F 6 "JST XHP-7" H 1100 5150 50  0001 C CNN "Connects to"
 	1    1100 5150
 	1    0    0    -1  
 $EndComp
@@ -289,8 +292,9 @@ F 0 "J2" H 5877 2526 50  0000 L CNN
 F 1 "Molex 172043-0302 R/A" H 5877 2435 50  0000 L CNN
 F 2 "custom:172043-0302_MOL" H 5850 2500 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/1720430302_sd.pdf" H 5850 2500 50  0001 C CNN
-F 4 "Molex no. 1726722003 --- https://www.digikey.com/en/products/detail/molex/1726722003/5154604" H 5850 2500 50  0001 C CNN "Connects to"
+F 4 "Molex no. 1726722003, 1726723003" H 5850 2500 50  0001 C CNN "Connects to"
 F 5 "https://www.digikey.com/en/products/detail/molex/1720430302/4839872" H 5850 2500 50  0001 C CNN "Purchase link, Digi-Key"
+F 6 "WM20740-ND" H 5850 2500 50  0001 C CNN "Digi-Key part number"
 	1    5850 2500
 	1    0    0    1   
 $EndComp
@@ -327,6 +331,7 @@ F 2 "custom:CONN_1720430201_MOL" H 1900 1700 50  0001 C CNN
 F 3 "https://www.molex.com/pdm_docs/sd/1720430201_sd.pdf" H 1900 1700 50  0001 C CNN
 F 4 "Molex 1726722002 --- https://www.digikey.com/en/products/detail/molex/1726722002/5154603" H 1900 1700 50  0001 C CNN "Connects with"
 F 5 "https://www.digikey.com/en/products/detail/molex/1720430201/4839863" H 1900 1700 50  0001 C CNN "Purchase link, Digi-Key"
+F 6 "WM20737-ND" H 1900 1700 50  0001 C CNN "Digi-Key part number"
 	1    1900 1700
 	1    0    0    1   
 $EndComp
