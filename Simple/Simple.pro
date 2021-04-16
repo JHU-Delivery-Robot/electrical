@@ -1,6 +1,6 @@
-update=4/4/2021 10:52:42 AM
+update=4/16/2021 10:37:12 AM
 version=1
-last_client=kicad
+last_client=pcbnew
 [general]
 version=1
 RootSch=
@@ -22,7 +22,7 @@ AllowMicroVias=0
 AllowBlindVias=0
 RequireCourtyardDefinitions=0
 ProhibitOverlappingCourtyards=1
-MinTrackWidth=0.2
+MinTrackWidth=0.127
 MinViaDiameter=0.4
 MinViaDrill=0.3
 MinMicroViaDiameter=0.2
@@ -239,7 +239,7 @@ dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=100 Ohm Diff Pair
 Clearance=0.2
-TrackWidth=0.2032
+TrackWidth=0.127
 ViaDiameter=0.8
 ViaDrill=0.4
 uViaDiameter=0.3

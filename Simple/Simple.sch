@@ -812,7 +812,7 @@ Wire Wire Line
 Text Label 3000 1850 0    50   ~ 0
 D+
 Text Label 4050 800  0    50   ~ 0
-D+
+D-
 Text Label 1250 1950 2    50   ~ 0
 TXD
 Text Label 1250 1650 2    50   ~ 0
@@ -1088,7 +1088,7 @@ F 3 "" H 5900 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 4050 900  0    50   ~ 0
-D-
+D+
 Wire Wire Line
 	2300 4050 2300 4500
 Wire Wire Line
@@ -1103,9 +1103,9 @@ Wire Wire Line
 Wire Wire Line
 	1700 5050 1800 5050
 Text Label 4100 1400 0    50   ~ 0
-D+
-Text Label 4100 1500 0    50   ~ 0
 D-
+Text Label 4100 1500 0    50   ~ 0
+D+
 $Comp
 L Connector:Conn_01x03_Male TR2
 U 1 1 60508E02
