@@ -1,0 +1,10 @@
+Reference, Quantity, Value, Footprint, Datasheet, Description, Height, Manufacturer_Name, Manufacturer_Part_Number, Mouser Part Number, Mouser Price/Stock
+C1 C2 ,2,"1u","Capacitor_SMD:C_0603_1608Metric","~"
+C3 ,1,"0.1u","Capacitor_SMD:C_0603_1608Metric","~"
+C4 ,1,"4.7u","Capacitor_SMD:C_0805_2012Metric","~"
+C5 ,1,"10u","Capacitor_SMD:C_0805_2012Metric","~"
+J1 ,1,"PWR","Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical","~"
+J2 ,1,"I2C","Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical","~"
+R1 R2 R3 R4 ,4,"4.7u","Resistor_SMD:R_0603_1608Metric","~"
+U1 ,1,"LDK120M18R","Package_TO_SOT_SMD:SOT-23-5","https://www.st.com/content/ccc/resource/technical/document/datasheet/9d/8f/91/5b/5d/0b/49/3d/DM00070790.pdf/files/DM00070790.pdf/jcr:content/translations/en.DM00070790.pdf"
+U2 ,1,"TMD37253M","lib:TMD37253M","https://componentsearchengine.com//TMD37253M.pdf","Ambient Light Sensors TMD37253M OLGA8 LF T&RDP","1.1","ams","TMD37253M","985-TMD37253M","https://www.mouser.co.uk/ProductDetail/ams/TMD37253M?qs=vLWxofP3U2w3vfIwANEepQ%3D%3D"

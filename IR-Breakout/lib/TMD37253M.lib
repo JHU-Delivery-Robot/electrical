@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# TMD37253M
+#
+DEF TMD37253M IC 0 30 Y Y 1 F N
+F0 "IC" 50 500 50 H V L CNN
+F1 "TMD37253M" 50 400 50 H V L CNN
+F2 "TMD37253M" 550 250 50 H I L CNN
+F3 "https://componentsearchengine.com//TMD37253M.pdf" 400 150 50 H I L CNN
+F4 "Ambient Light Sensors TMD37253M OLGA8 LF T&RDP" 400 50 50 H I L CNN "Description"
+F5 "1.1" 400 -50 50 H I L CNN "Height"
+F6 "ams" 550 -150 50 H I L CNN "Manufacturer_Name"
+F7 "TMD37253M" 550 -250 50 H I L CNN "Manufacturer_Part_Number"
+F8 "985-TMD37253M" 550 -350 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/ams/TMD37253M?qs=vLWxofP3U2w3vfIwANEepQ%3D%3D" 550 -450 50 H I L CNN "Mouser Price/Stock"
+DRAW
+S -400 250 350 -250 0 1 0 f
+X VDD 1 -50 450 200 D 50 50 0 0 W
+X SDA 2 -600 150 200 R 50 50 0 0 B
+X SCL 3 -600 50 200 R 50 50 0 0 I
+X LEDA 4 550 150 200 L 50 50 0 0 I
+X LEDK 5 550 50 200 L 50 50 0 0 O
+X PGND 6 -100 -450 200 U 50 50 0 0 W
+X INT 7 -600 -50 200 R 50 50 0 0 W
+X VSS 8 0 -450 200 U 50 50 0 0 W
+ENDDRAW
+ENDDEF
+#
+#End Library
