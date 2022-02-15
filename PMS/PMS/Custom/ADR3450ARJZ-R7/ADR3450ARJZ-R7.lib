@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model ADR3450ARJZ-R7
+#/579355/255746/2.49/6/0/Integrated Circuit
+DEF ADR3450ARJZ-R7 IC 0 30 Y Y 1 F N
+F0 "IC" 1550 300 50 H V L CNN
+F1 "ADR3450ARJZ-R7" 1550 200 50 H V L CNN
+F2 "SOT95P280X145-6N" 1550 100 50 H I L CNN
+F3 "" 1550 0 50 H I L CNN
+F4 "Micropower, High Accuracy Voltage References" 1550 -100 50 H I L CNN "Description"
+F5 "" 1550 -200 50 H I L CNN "Height"
+F6 "Analog Devices" 1550 -300 50 H I L CNN "Manufacturer_Name"
+F7 "ADR3450ARJZ-R7" 1550 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "584-ADR3450ARJZ-R7" 1550 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADR3450ARJZ-R7?qs=WIvQP4zGani%252BAvAPDrR4IA%3D%3D" 1550 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "ADR3450ARJZ-R7" 1550 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/adr3450arjz-r7/analog-devices" 1550 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X GND_FORCE 1 0 0 200 R 50 50 0 0 P
+X GND_SEN 2 0 -100 200 R 50 50 0 0 P
+X EN 3 0 -200 200 R 50 50 0 0 P
+X VIN 4 1700 -200 200 L 50 50 0 0 P
+X VOUT_SEN 5 1700 -100 200 L 50 50 0 0 P
+X VOUT_FORCE 6 1700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1500 100 1500 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
