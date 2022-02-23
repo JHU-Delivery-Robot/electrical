@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model TL2575-12IKTTR
+#/416922/255746/2.49/6/4/Integrated Circuit
+DEF TL2575-12IKTTR IC 0 30 Y Y 1 F N
+F0 "IC" 1250 300 50 H V L CNN
+F1 "TL2575-12IKTTR" 1250 200 50 H V L CNN
+F2 "TL257512IKTTR" 1250 100 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/tl2575-12" 1250 0 50 H I L CNN
+F4 "Texas Instruments, TL2575-12IKTTR Switching Regulator 1A Adjustable, 11.4  12.6 V, 5-Pin TO-263" 1250 -100 50 H I L CNN "Description"
+F5 "4.83" 1250 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 1250 -300 50 H I L CNN "Manufacturer_Name"
+F7 "TL2575-12IKTTR" 1250 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "595-TL2575-12IKTTR" 1250 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TL2575-12IKTTR?qs=EnLMdcWnKACtdTe2DrM28w%3D%3D" 1250 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "TL2575-12IKTTR" 1250 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/tl2575-12ikttr/texas-instruments" 1250 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X VIN 1 0 0 200 R 50 50 0 0 P
+X OUTPUT 2 0 -100 200 R 50 50 0 0 P
+X GND_1 3 0 -200 200 R 50 50 0 0 P
+X FEEDBACK 4 0 -300 200 R 50 50 0 0 P
+X ~ON~/OFF 5 0 -400 200 R 50 50 0 0 P
+X GND_2 6 1400 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1200 100 1200 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

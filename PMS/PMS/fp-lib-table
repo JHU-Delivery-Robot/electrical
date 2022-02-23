@@ -3,4 +3,5 @@
   (lib (name "LIB_XT60PW-F")(type "KiCad")(uri "${KIPRJMOD}/Custom/XT60PW-F")(options "")(descr ""))
   (lib (name "TMCS1107A1BQDRQ1")(type "KiCad")(uri "${KIPRJMOD}/Custom/TMCS1107A1BQDRQ1")(options "")(descr ""))
   (lib (name "ADR3450ARJZ-R7")(type "KiCad")(uri "${KIPRJMOD}/Custom/ADR3450ARJZ-R7")(options "")(descr ""))
+  (lib (name "LA12")(type "KiCad")(uri "${KIPRJMOD}/Custom/LA12.pretty")(options "")(descr ""))
 )

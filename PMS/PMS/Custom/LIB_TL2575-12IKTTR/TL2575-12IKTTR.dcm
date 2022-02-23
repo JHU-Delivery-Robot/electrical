@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TL2575-12IKTTR
+D Texas Instruments, TL2575-12IKTTR Switching Regulator 1A Adjustable, 11.4  12.6 V, 5-Pin TO-263
+K
+F http://www.ti.com/lit/gpn/tl2575-12
+$ENDCMP
+#
+#End Doc Library

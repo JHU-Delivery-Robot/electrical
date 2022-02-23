@@ -3,4 +3,6 @@
   (lib (name "XT60PW-F")(type "KiCad")(uri "${KIPRJMOD}/Custom/XT60PW-F/XT60PW-F.kicad_sym")(options "")(descr ""))
   (lib (name "TMCS1107A1BQDRQ1")(type "Legacy")(uri "${KIPRJMOD}/Custom/TMCS1107A1BQDRQ1/TMCS1107A1BQDRQ1.lib")(options "")(descr ""))
   (lib (name "ADR3450ARJZ-R7")(type "Legacy")(uri "${KIPRJMOD}/Custom/ADR3450ARJZ-R7/ADR3450ARJZ-R7.lib")(options "")(descr ""))
+  (lib (name "LA12")(type "KiCad")(uri "${KIPRJMOD}/Custom/LA12.pretty/LA12.kicad_sym")(options "")(descr ""))
+  (lib (name "TL2575-12IKTTR")(type "KiCad")(uri "${KIPRJMOD}/Custom/LIB_TL2575-12IKTTR/TL2575-12IKTTR.kicad_sym")(options "")(descr ""))
 )
