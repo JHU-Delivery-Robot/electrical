@@ -3173,7 +3173,7 @@
     (property "Reference" "D3" (id 0) (at 58.42 63.8615 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1N4728A" (id 1) (at 58.42 66.6366 90)
+    (property "Value" "1N4746A" (id 1) (at 58.42 66.6366 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" (id 2) (at 51.943 64.77 0)
@@ -4385,7 +4385,7 @@
       (reference "D1") (unit 1) (value "1N5819") (footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
     )
     (path "/8c58b9c6-42fa-43ad-a456-e387b2c947c3"
-      (reference "D3") (unit 1) (value "1N4728A") (footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
+      (reference "D3") (unit 1) (value "1N4746A") (footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
     )
     (path "/f7d7bb3d-3174-4f8d-bddb-cbcecab3f605"
       (reference "F1") (unit 1) (value "30A") (footprint "")
