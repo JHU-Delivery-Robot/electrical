@@ -5,4 +5,5 @@
   (lib (name "ADR3450ARJZ-R7")(type "Legacy")(uri "${KIPRJMOD}/Custom/ADR3450ARJZ-R7/ADR3450ARJZ-R7.lib")(options "")(descr ""))
   (lib (name "LA12")(type "KiCad")(uri "${KIPRJMOD}/Custom/LA12.pretty/LA12.kicad_sym")(options "")(descr ""))
   (lib (name "TL2575-12IKTTR")(type "KiCad")(uri "${KIPRJMOD}/Custom/LIB_TL2575-12IKTTR/TL2575-12IKTTR.kicad_sym")(options "")(descr ""))
+  (lib (name "3576")(type "Legacy")(uri "${KIPRJMOD}/Custom/LIB_3576/3576.lib")(options "")(descr ""))
 )
