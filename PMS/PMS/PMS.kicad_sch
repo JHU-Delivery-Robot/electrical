@@ -3044,7 +3044,7 @@
     (uuid cf54f418-c583-4eda-be64-e2658e9d7854)
     (property "Reference" "JP1" (id 0) (at 88.9 58.0095 0))
     (property "Value" "Jumper_2_Bridged" (id 1) (at 88.9 60.7846 0))
-    (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm" (id 2) (at 88.9 62.611 0)
+    (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm" (id 2) (at 88.9 62.611 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 88.9 62.611 0)
@@ -3664,7 +3664,7 @@
       (reference "J7") (unit 1) (value "Conn_01x02_Male") (footprint "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical")
     )
     (path "/cf54f418-c583-4eda-be64-e2658e9d7854"
-      (reference "JP1") (unit 1) (value "Jumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm")
+      (reference "JP1") (unit 1) (value "Jumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm")
     )
     (path "/45100c78-fff6-4f44-a47d-2aea8091517a"
       (reference "R1") (unit 1) (value "10M") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
