@@ -6,4 +6,6 @@
   (lib (name "LA12")(type "KiCad")(uri "${KIPRJMOD}/Custom/LA12.pretty/LA12.kicad_sym")(options "")(descr ""))
   (lib (name "TL2575-12IKTTR")(type "KiCad")(uri "${KIPRJMOD}/Custom/LIB_TL2575-12IKTTR/TL2575-12IKTTR.kicad_sym")(options "")(descr ""))
   (lib (name "3576")(type "Legacy")(uri "${KIPRJMOD}/Custom/LIB_3576/3576.lib")(options "")(descr ""))
+  (lib (name "XT90PW-F")(type "KiCad")(uri "${KIPRJMOD}/Custom/XT90PW-F/XT90PW-F.kicad_sym")(options "")(descr ""))
+  (lib (name "XT90PW-M")(type "KiCad")(uri "${KIPRJMOD}/Custom/XT90PW-M/XT90PW-M.kicad_sym")(options "")(descr ""))
 )
