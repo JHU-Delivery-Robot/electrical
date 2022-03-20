@@ -7,4 +7,5 @@
   (lib (name "LIB_3576")(type "KiCad")(uri "${KIPRJMOD}/Custom/LIB_3576")(options "")(descr ""))
   (lib (name "XT90PW-F")(type "KiCad")(uri "${KIPRJMOD}/Custom/XT90PW-F")(options "")(descr ""))
   (lib (name "XT90PW-M")(type "KiCad")(uri "${KIPRJMOD}/Custom/XT90PW-M")(options "")(descr ""))
+  (lib (name "LIB_OSTYK44105030")(type "KiCad")(uri "${KIPRJMOD}/Custom/LIB_OSTYK44105030")(options "")(descr ""))
 )
