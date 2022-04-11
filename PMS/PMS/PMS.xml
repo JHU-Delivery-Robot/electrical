@@ -2,8 +2,8 @@
 <export version="E">
   <design>
     <source>/Users/sreenieadara/Documents/electrical/PMS/PMS/PMS.kicad_sch</source>
-    <date>Friday, March 04, 2022 at 08:43:11 PM</date>
-    <tool>Eeschema (6.0.0-0)</tool>
+    <date>Wednesday, March 23, 2022 at 09:35:46 AM</date>
+    <tool>Eeschema (6.0.2-0)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -116,70 +116,30 @@
       <tstamps>97dc0443-2df8-4cca-8ed3-c1dcf7557112</tstamps>
     </comp>
     <comp ref="C8">
-      <value>1uF</value>
+      <value>10uF</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
       <fields>
-        <field name="DigiKey Part Number">399-15436-2-ND</field>
+        <field name="DigiKey Part Number">399-C0805C106K4PAC7210CT-ND</field>
       </fields>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="DigiKey Part Number" value="399-15436-2-ND"/>
+      <property name="DigiKey Part Number" value="399-C0805C106K4PAC7210CT-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PMS.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>eba289bb-afd0-4d6e-bc0c-19d99f0957a0</tstamps>
     </comp>
-    <comp ref="C9">
-      <value>330 uF</value>
-      <footprint>Capacitor_SMD:CP_Elec_8x6.5</footprint>
+    <comp ref="C12">
+      <value>1 uF</value>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder</footprint>
       <fields>
-        <field name="DigiKey Part Number">399-20528-2-ND</field>
+        <field name="DigiKey Part Number">399-18012-1-ND</field>
       </fields>
-      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
-      <property name="DigiKey Part Number" value="399-20528-2-ND"/>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="DigiKey Part Number" value="399-18012-1-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PMS.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>2cebed56-aa6a-48d3-871a-ef7e074dc762</tstamps>
-    </comp>
-    <comp ref="C10">
-      <value>100 uF</value>
-      <footprint>Capacitor_SMD:CP_Elec_10x10.5</footprint>
-      <fields>
-        <field name="DigiKey Part Number">399-EDK107M025A9LAATR-ND</field>
-      </fields>
-      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
-      <property name="DigiKey Part Number" value="399-EDK107M025A9LAATR-ND"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="PMS.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>afa5bcdc-d28d-42df-a85f-345ff9bc6039</tstamps>
-    </comp>
-    <comp ref="C11">
-      <value>100 uF</value>
-      <footprint>Capacitor_SMD:CP_Elec_10x10.5</footprint>
-      <fields>
-        <field name="DigiKey Part Number">399-EDK107M025A9LAATR-ND</field>
-      </fields>
-      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
-      <property name="DigiKey Part Number" value="399-EDK107M025A9LAATR-ND"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="PMS.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>ae776711-da15-415f-af0c-9d93b5645513</tstamps>
-    </comp>
-    <comp ref="D1">
-      <value>1N5819</value>
-      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
-      <datasheet>http://www.vishay.com/docs/88525/1n5817.pdf</datasheet>
-      <fields>
-        <field name="DigiKey Part Number">1N5819-E3/54GICT-ND</field>
-      </fields>
-      <libsource lib="Diode" part="1N5819" description="40V 1A Schottky Barrier Rectifier Diode, DO-41"/>
-      <property name="DigiKey Part Number" value="1N5819-E3/54GICT-ND"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="PMS.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>0820e430-5b26-4060-9c53-8ccccfc17ace</tstamps>
+      <tstamps>89d1f92b-0c73-4af1-8349-329540534088</tstamps>
     </comp>
     <comp ref="F1">
       <value>30A</value>
@@ -207,6 +167,42 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>888528ab-b5ab-4632-8770-4513cc391ae3</tstamps>
     </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_ISO14580</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PMS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4a32519b-38c3-4ef3-b91b-ab30c9909ae2</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_ISO14580</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PMS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ceb1df6a-4de2-45e0-a86d-fcd2b20e3e1a</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_ISO14580</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PMS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2a874b7b-cea9-49ab-88d1-90e74dd6635b</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_ISO14580</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PMS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f67055ae-2f20-4903-b44e-417d3335d255</tstamps>
+    </comp>
     <comp ref="IC1">
       <value>TMCS1107A1BQDRQ1</value>
       <footprint>TMCS1107A1BQDRQ1:SOIC127P600X175-8N</footprint>
@@ -233,141 +229,57 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>21f0b505-f3ac-41a8-a644-7af46ab10635</tstamps>
     </comp>
-    <comp ref="IC2">
-      <value>ADR3450ARJZ-R7</value>
-      <footprint>ADR3450ARJZ-R7:SOT95P280X145-6N</footprint>
-      <fields>
-        <field name="Arrow Part Number">ADR3450ARJZ-R7</field>
-        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/adr3450arjz-r7/analog-devices</field>
-        <field name="Description">Micropower, High Accuracy Voltage References</field>
-        <field name="DigiKey Part Number">505-ADR3450ARJZ-R7TR-ND</field>
-        <field name="Manufacturer_Name">Analog Devices</field>
-        <field name="Manufacturer_Part_Number">ADR3450ARJZ-R7</field>
-        <field name="Mouser Part Number">584-ADR3450ARJZ-R7</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADR3450ARJZ-R7?qs=WIvQP4zGani%252BAvAPDrR4IA%3D%3D</field>
-      </fields>
-      <libsource lib="ADR3450ARJZ-R7" part="ADR3450ARJZ-R7" description="Micropower, High Accuracy Voltage References"/>
-      <property name="Description" value="Micropower, High Accuracy Voltage References"/>
-      <property name="Height" value=""/>
-      <property name="Manufacturer_Name" value="Analog Devices"/>
-      <property name="Manufacturer_Part_Number" value="ADR3450ARJZ-R7"/>
-      <property name="Mouser Part Number" value="584-ADR3450ARJZ-R7"/>
-      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADR3450ARJZ-R7?qs=WIvQP4zGani%252BAvAPDrR4IA%3D%3D"/>
-      <property name="Arrow Part Number" value="ADR3450ARJZ-R7"/>
-      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/adr3450arjz-r7/analog-devices"/>
-      <property name="DigiKey Part Number" value="505-ADR3450ARJZ-R7TR-ND"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="PMS.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>0775db7b-e195-42d3-8953-d77917fdf99b</tstamps>
-    </comp>
-    <comp ref="IC3">
-      <value>TL2575-12IKTTR</value>
-      <footprint>Package_TO_SOT_SMD:TO-263-5_TabPin6</footprint>
-      <datasheet>http://www.ti.com/lit/gpn/tl2575-12</datasheet>
-      <fields>
-        <field name="Arrow Part Number">TL2575-12IKTTR</field>
-        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tl2575-12ikttr/texas-instruments</field>
-        <field name="Description">Texas Instruments, TL2575-12IKTTR Switching Regulator 1A Adjustable, 11.4  12.6 V, 5-Pin TO-263</field>
-        <field name="DigiKey Part Number">296-21495-2-ND</field>
-        <field name="Height">4.83</field>
-        <field name="Manufacturer_Name">Texas Instruments</field>
-        <field name="Manufacturer_Part_Number">TL2575-12IKTTR</field>
-        <field name="Mouser Part Number">595-TL2575-12IKTTR</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TL2575-12IKTTR?qs=EnLMdcWnKACtdTe2DrM28w%3D%3D</field>
-      </fields>
-      <libsource lib="TL2575-12IKTTR" part="TL2575-12IKTTR" description="Texas Instruments, TL2575-12IKTTR Switching Regulator 1A Adjustable, 11.4  12.6 V, 5-Pin TO-263"/>
-      <property name="Description" value="Texas Instruments, TL2575-12IKTTR Switching Regulator 1A Adjustable, 11.4  12.6 V, 5-Pin TO-263"/>
-      <property name="Height" value="4.83"/>
-      <property name="Manufacturer_Name" value="Texas Instruments"/>
-      <property name="Manufacturer_Part_Number" value="TL2575-12IKTTR"/>
-      <property name="Mouser Part Number" value="595-TL2575-12IKTTR"/>
-      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TL2575-12IKTTR?qs=EnLMdcWnKACtdTe2DrM28w%3D%3D"/>
-      <property name="Arrow Part Number" value="TL2575-12IKTTR"/>
-      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/tl2575-12ikttr/texas-instruments"/>
-      <property name="DigiKey Part Number" value="296-21495-2-ND"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="PMS.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>858740cf-2506-4e83-8ddb-70922c81b934</tstamps>
-    </comp>
     <comp ref="J1">
-      <value>XT60PW-M</value>
-      <footprint>LIB_XT60PW-M:XT60PWM</footprint>
+      <value>XT90PW-M</value>
+      <footprint>XT90PW-M:XT90PWM</footprint>
       <datasheet>https://www.tme.eu/Document/9b8d0c5eb7094295f3d3112c214d3ade/XT60PW%20SPEC.pdf</datasheet>
       <fields>
-        <field name="Description">Socket; DC supply; XT60; male; PIN: 2; on PCBs; THT; Colour: yellow</field>
+        <field name="Description">Socket; DC supply; XT90; male; PIN: 2; on PCBs; THT; Colour: yellow</field>
         <field name="Height">8.4</field>
         <field name="Manufacturer_Name">Changzou Amass Elec</field>
-        <field name="Manufacturer_Part_Number">XT60PW-M</field>
-        <field name="TME Part Number">XT60PW-M</field>
+        <field name="Manufacturer_Part_Number">XT90PW-M</field>
       </fields>
-      <libsource lib="XT60PW-M" part="XT60PW-M" description="Socket; DC supply; XT60; male; PIN: 2; on PCBs; THT; Colour: yellow"/>
-      <property name="Description" value="Socket; DC supply; XT60; male; PIN: 2; on PCBs; THT; Colour: yellow"/>
+      <libsource lib="XT90PW-M" part="XT90PW-M" description="Socket; DC supply; XT60; male; PIN: 2; on PCBs; THT; Colour: yellow"/>
+      <property name="Description" value="Socket; DC supply; XT90; male; PIN: 2; on PCBs; THT; Colour: yellow"/>
       <property name="Height" value="8.4"/>
       <property name="Manufacturer_Name" value="Changzou Amass Elec"/>
-      <property name="Manufacturer_Part_Number" value="XT60PW-M"/>
+      <property name="Manufacturer_Part_Number" value="XT90PW-M"/>
       <property name="Mouser Part Number" value=""/>
       <property name="Mouser Price/Stock" value=""/>
       <property name="Arrow Part Number" value=""/>
       <property name="Arrow Price/Stock" value=""/>
-      <property name="TME Part Number" value="XT60PW-M"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PMS.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>47dee118-c0bc-470d-aac7-c623960c85a6</tstamps>
+      <tstamps>9f805ff0-307a-4ae4-8ac3-e3c9d4edc850</tstamps>
     </comp>
     <comp ref="J2">
-      <value>XT60PW-F</value>
-      <footprint>LIB_XT60PW-F:XT60PWF</footprint>
-      <datasheet>https://www.tme.eu/Document/9b8d0c5eb7094295f3d3112c214d3ade/XT60PW%20SPEC.pdf</datasheet>
+      <value>OSTYK44105030</value>
+      <footprint>LIB_OSTYK44105030:OSTYK44105030</footprint>
+      <datasheet>https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/d99c7470f76f3068913cb19c872dbd9c.pdf</datasheet>
       <fields>
-        <field name="Description">Socket; DC supply; XT60; male; PIN: 2; on PCBs; THT; Colour: yellow</field>
-        <field name="Height">8.4</field>
-        <field name="Manufacturer_Name">Changzou Amass Elec</field>
-        <field name="Manufacturer_Part_Number">XT60PW-M</field>
-        <field name="TME Part Number">XT60PW-M</field>
+        <field name="Arrow Part Number">OSTYK44105030</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ostyk44105030/on-shore-technology</field>
+        <field name="Description">OSTYK44105030</field>
+        <field name="DigiKey Part Number">ED2974-ND</field>
+        <field name="Height">14.3</field>
+        <field name="Manufacturer_Name">On-Shore Technology, Inc</field>
+        <field name="Manufacturer_Part_Number">OSTYK44105030</field>
       </fields>
-      <libsource lib="XT60PW-F" part="XT60PW-F" description="Socket; DC supply; XT60; male; PIN: 2; on PCBs; THT; Colour: yellow"/>
-      <property name="Description" value="Socket; DC supply; XT60; male; PIN: 2; on PCBs; THT; Colour: yellow"/>
-      <property name="Height" value="8.4"/>
-      <property name="Manufacturer_Name" value="Changzou Amass Elec"/>
-      <property name="Manufacturer_Part_Number" value="XT60PW-M"/>
+      <libsource lib="OSTYK44105030" part="OSTYK44105030" description="OSTYK44105030"/>
+      <property name="Description" value="OSTYK44105030"/>
+      <property name="Height" value="14.3"/>
+      <property name="Manufacturer_Name" value="On-Shore Technology, Inc"/>
+      <property name="Manufacturer_Part_Number" value="OSTYK44105030"/>
       <property name="Mouser Part Number" value=""/>
       <property name="Mouser Price/Stock" value=""/>
-      <property name="Arrow Part Number" value=""/>
-      <property name="Arrow Price/Stock" value=""/>
-      <property name="TME Part Number" value="XT60PW-M"/>
+      <property name="Arrow Part Number" value="OSTYK44105030"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/ostyk44105030/on-shore-technology"/>
+      <property name="DigiKey Part Number" value="ED2974-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PMS.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>d2648e16-ef7e-4244-b5a2-818fc7005bd2</tstamps>
-    </comp>
-    <comp ref="J3">
-      <value>XT60PW-M</value>
-      <footprint>LIB_XT60PW-M:XT60PWM</footprint>
-      <datasheet>https://www.tme.eu/Document/9b8d0c5eb7094295f3d3112c214d3ade/XT60PW%20SPEC.pdf</datasheet>
-      <fields>
-        <field name="Description">Socket; DC supply; XT60; male; PIN: 2; on PCBs; THT; Colour: yellow</field>
-        <field name="Height">8.4</field>
-        <field name="Manufacturer_Name">Changzou Amass Elec</field>
-        <field name="Manufacturer_Part_Number">XT60PW-M</field>
-        <field name="TME Part Number">XT60PW-M</field>
-      </fields>
-      <libsource lib="XT60PW-M" part="XT60PW-M" description="Socket; DC supply; XT60; male; PIN: 2; on PCBs; THT; Colour: yellow"/>
-      <property name="Description" value="Socket; DC supply; XT60; male; PIN: 2; on PCBs; THT; Colour: yellow"/>
-      <property name="Height" value="8.4"/>
-      <property name="Manufacturer_Name" value="Changzou Amass Elec"/>
-      <property name="Manufacturer_Part_Number" value="XT60PW-M"/>
-      <property name="Mouser Part Number" value=""/>
-      <property name="Mouser Price/Stock" value=""/>
-      <property name="Arrow Part Number" value=""/>
-      <property name="Arrow Price/Stock" value=""/>
-      <property name="TME Part Number" value="XT60PW-M"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="PMS.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>9304edf8-8386-4241-a8ab-341381df616d</tstamps>
+      <tstamps>bb5984f3-759b-4af5-abf8-fb951872eba7</tstamps>
     </comp>
     <comp ref="J4">
       <value>XT60PW-F</value>
@@ -396,30 +308,28 @@
       <tstamps>3b283d39-c89e-4178-8d03-9befea52f1e0</tstamps>
     </comp>
     <comp ref="J5">
-      <value>XT60PW-F</value>
-      <footprint>LIB_XT60PW-F:XT60PWF</footprint>
-      <datasheet>https://www.tme.eu/Document/9b8d0c5eb7094295f3d3112c214d3ade/XT60PW%20SPEC.pdf</datasheet>
+      <value>XT90PW-F</value>
+      <footprint>XT90PW-F:XT90PW-F</footprint>
+      <datasheet>https://www.tme.com/Document/7357a049cc8e5ea73e34d2124a313a81/XT90PW.pdf</datasheet>
       <fields>
-        <field name="Description">Socket; DC supply; XT60; male; PIN: 2; on PCBs; THT; Colour: yellow</field>
+        <field name="Description">Socket; DC supply; XT90; female; PIN: 2; on PCBs; THT; Colour: yellow</field>
         <field name="Height">8.4</field>
         <field name="Manufacturer_Name">Changzou Amass Elec</field>
-        <field name="Manufacturer_Part_Number">XT60PW-M</field>
-        <field name="TME Part Number">XT60PW-M</field>
+        <field name="Manufacturer_Part_Number">XT90PW-F</field>
       </fields>
-      <libsource lib="XT60PW-F" part="XT60PW-F" description="Socket; DC supply; XT60; male; PIN: 2; on PCBs; THT; Colour: yellow"/>
-      <property name="Description" value="Socket; DC supply; XT60; male; PIN: 2; on PCBs; THT; Colour: yellow"/>
+      <libsource lib="XT90PW-F" part="XT90PW-F" description="Socket; DC supply; XT60; male; PIN: 2; on PCBs; THT; Colour: yellow"/>
+      <property name="Description" value="Socket; DC supply; XT90; female; PIN: 2; on PCBs; THT; Colour: yellow"/>
       <property name="Height" value="8.4"/>
       <property name="Manufacturer_Name" value="Changzou Amass Elec"/>
-      <property name="Manufacturer_Part_Number" value="XT60PW-M"/>
+      <property name="Manufacturer_Part_Number" value="XT90PW-F"/>
       <property name="Mouser Part Number" value=""/>
       <property name="Mouser Price/Stock" value=""/>
       <property name="Arrow Part Number" value=""/>
       <property name="Arrow Price/Stock" value=""/>
-      <property name="TME Part Number" value="XT60PW-M"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PMS.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>429e69f0-dfb9-4897-9fc0-dde46adaf925</tstamps>
+      <tstamps>53c98039-4655-4024-9be1-269b508daf7e</tstamps>
     </comp>
     <comp ref="J6">
       <value>Conn_01x03_Male</value>
@@ -447,44 +357,14 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>c7d25245-2eca-4728-9336-07c80c2426ae</tstamps>
     </comp>
-    <comp ref="J8">
-      <value>Conn_01x02_Male</value>
-      <footprint>Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical</footprint>
-      <fields>
-        <field name="DigiKey Part Number">455-2247-ND</field>
-      </fields>
-      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="DigiKey Part Number" value="455-2247-ND"/>
+    <comp ref="JP1">
+      <value>Jumper_2_Bridged</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Bridged2Bar_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="Jumper_2_Bridged" description="Jumper, 2-pole, closed/bridged"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PMS.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>fffd4ae6-8077-4aa8-b5e9-1c522972149d</tstamps>
-    </comp>
-    <comp ref="L1">
-      <value>330 uH</value>
-      <footprint>Inductor_SMD:L_Bourns_SRR1210A</footprint>
-      <fields>
-        <field name="DigiKey Part Number">SRR1210-331MTR-ND</field>
-      </fields>
-      <libsource lib="Device" part="L" description="Inductor"/>
-      <property name="DigiKey Part Number" value="SRR1210-331MTR-ND"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="PMS.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>c12d44c7-cd32-4a2e-878d-fc5155f57cb2</tstamps>
-    </comp>
-    <comp ref="L2">
-      <value>22 uH</value>
-      <footprint>Inductor_SMD:L_Bourns_SRN6045TA</footprint>
-      <fields>
-        <field name="DigiKey Part Number">SRN6045TA-220MTR-ND</field>
-      </fields>
-      <libsource lib="Device" part="L" description="Inductor"/>
-      <property name="DigiKey Part Number" value="SRN6045TA-220MTR-ND"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="PMS.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>ac53d7f2-62c4-4585-b970-a5d4b5345e70</tstamps>
+      <tstamps>cf54f418-c583-4eda-be64-e2658e9d7854</tstamps>
     </comp>
     <comp ref="R1">
       <value>10M</value>
@@ -564,6 +444,24 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>bf5d54ad-a82b-4c85-8c24-5352dc48e951</tstamps>
     </comp>
+    <comp ref="R7">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PMS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1cc3accb-922f-4c91-856c-aaa9b099f401</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>2M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PMS.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d9b4b9ec-e761-4f6a-8f3c-09025e57fd3d</tstamps>
+    </comp>
     <comp ref="U1">
       <value>ADC101C027CIMK</value>
       <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
@@ -592,44 +490,22 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>6d0ca010-5b81-4b7f-a52c-359caf10d1c6</tstamps>
     </comp>
-    <comp ref="U3">
-      <value>LA12-48V21</value>
-      <footprint>LA12:LA12-48V21</footprint>
+    <comp ref="U4">
+      <value>REF195</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.analog.com/static/imported-files/data_sheets/REF19xSeries.pdf</datasheet>
       <fields>
-        <field name="DigiKey Part Number">399-19401-ND</field>
+        <field name="DigiKey Part Number">REF195FSZ-REELCT-ND</field>
       </fields>
-      <libsource lib="LA12" part="LA12-48V21" description=""/>
-      <property name="DigiKey Part Number" value="399-19401-ND"/>
+      <libsource lib="Reference_Voltage" part="REF195" description="Precision voltage references 5V, DIP-8/SO-8/TSSOP-8"/>
+      <property name="DigiKey Part Number" value="REF195FSZ-REELCT-ND"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PMS.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>89dc98e7-3c1f-4b03-8d40-b2e3832174e2</tstamps>
+      <tstamps>862de01b-d8b8-47f4-8af6-b7f60e9ca8f8</tstamps>
     </comp>
   </components>
   <libparts>
-    <libpart lib="ADR3450ARJZ-R7" part="ADR3450ARJZ-R7">
-      <description>Micropower, High Accuracy Voltage References</description>
-      <fields>
-        <field name="Reference">IC</field>
-        <field name="Value">ADR3450ARJZ-R7</field>
-        <field name="Footprint">SOT95P280X145-6N</field>
-        <field name="Description">Micropower, High Accuracy Voltage References</field>
-        <field name="Manufacturer_Name">Analog Devices</field>
-        <field name="Manufacturer_Part_Number">ADR3450ARJZ-R7</field>
-        <field name="Mouser Part Number">584-ADR3450ARJZ-R7</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADR3450ARJZ-R7?qs=WIvQP4zGani%252BAvAPDrR4IA%3D%3D</field>
-        <field name="Arrow Part Number">ADR3450ARJZ-R7</field>
-        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/adr3450arjz-r7/analog-devices</field>
-      </fields>
-      <pins>
-        <pin num="1" name="GND_FORCE" type="passive"/>
-        <pin num="2" name="GND_SEN" type="passive"/>
-        <pin num="3" name="EN" type="passive"/>
-        <pin num="4" name="VIN" type="passive"/>
-        <pin num="5" name="VOUT_SEN" type="passive"/>
-        <pin num="6" name="VOUT_FORCE" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="Analog_ADC" part="ADC101C021CIMK">
       <description>10-bit I2C ADC, SOT-23</description>
       <docs>https://www.ti.com/lit/ds/symlink/adc101c021.pdf</docs>
@@ -684,22 +560,6 @@
         <pin num="3" name="Pin_3" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Device" part="C_Polarized">
-      <description>Polarized capacitor</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>CP_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">C</field>
-        <field name="Value">C_Polarized</field>
-        <field name="Datasheet">~</field>
-      </fields>
-      <pins>
-        <pin num="1" name="" type="passive"/>
-        <pin num="2" name="" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="Device" part="C_Polarized_Small">
       <description>Polarized capacitor, small symbol</description>
       <docs>~</docs>
@@ -748,25 +608,6 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Device" part="L">
-      <description>Inductor</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>Choke_*</fp>
-        <fp>*Coil*</fp>
-        <fp>Inductor_*</fp>
-        <fp>L_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">L</field>
-        <field name="Value">L</field>
-        <field name="Datasheet">~</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="Device" part="R">
       <description>Resistor</description>
       <docs>~</docs>
@@ -783,62 +624,81 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Diode" part="1N5819">
-      <description>40V 1A Schottky Barrier Rectifier Diode, DO-41</description>
-      <docs>http://www.vishay.com/docs/88525/1n5817.pdf</docs>
+    <libpart lib="Jumper" part="Jumper_2_Bridged">
+      <description>Jumper, 2-pole, closed/bridged</description>
+      <docs>~</docs>
       <footprints>
-        <fp>D*DO?41*</fp>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*2Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
       </footprints>
       <fields>
-        <field name="Reference">D</field>
-        <field name="Value">1N5819</field>
-        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
-        <field name="Datasheet">http://www.vishay.com/docs/88525/1n5817.pdf</field>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_2_Bridged</field>
+        <field name="Datasheet">~</field>
       </fields>
       <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="LA12" part="LA12-48V21">
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="OSTYK44105030" part="OSTYK44105030">
+      <description>OSTYK44105030</description>
+      <docs>https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/d99c7470f76f3068913cb19c872dbd9c.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">OSTYK44105030</field>
+        <field name="Footprint">OSTYK44105030</field>
+        <field name="Datasheet">https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/d99c7470f76f3068913cb19c872dbd9c.pdf</field>
+        <field name="Description">OSTYK44105030</field>
+        <field name="Height">14.3</field>
+        <field name="Manufacturer_Name">On-Shore Technology, Inc</field>
+        <field name="Manufacturer_Part_Number">OSTYK44105030</field>
+        <field name="Arrow Part Number">OSTYK44105030</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/ostyk44105030/on-shore-technology</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Reference_Voltage" part="REF195">
+      <description>Precision voltage references 5V, DIP-8/SO-8/TSSOP-8</description>
+      <docs>https://www.analog.com/static/imported-files/data_sheets/REF19xSeries.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOIC*3.9x4.9m*P1.27mm*</fp>
+        <fp>TSSOP*4.4x3mm*P0.65mm*</fp>
+      </footprints>
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">LA12-48V21</field>
-        <field name="Footprint">LA12:LA12-48V21</field>
+        <field name="Value">REF195</field>
+        <field name="Datasheet">https://www.analog.com/static/imported-files/data_sheets/REF19xSeries.pdf</field>
       </fields>
       <pins>
-        <pin num="1" name="NC" type="no_connect"/>
-        <pin num="2" name="GND" type="power_in"/>
-        <pin num="3" name="VCC" type="power_in"/>
-        <pin num="4" name="VOUT" type="output"/>
-        <pin num="A" name="" type="input"/>
-        <pin num="B" name="" type="input"/>
-      </pins>
-    </libpart>
-    <libpart lib="TL2575-12IKTTR" part="TL2575-12IKTTR">
-      <description>Texas Instruments, TL2575-12IKTTR Switching Regulator 1A Adjustable, 11.4  12.6 V, 5-Pin TO-263</description>
-      <docs>http://www.ti.com/lit/gpn/tl2575-12</docs>
-      <fields>
-        <field name="Reference">IC</field>
-        <field name="Value">TL2575-12IKTTR</field>
-        <field name="Footprint">Package_TO_SOT_SMD:TO-263-5_TabPin6</field>
-        <field name="Datasheet">http://www.ti.com/lit/gpn/tl2575-12</field>
-        <field name="Description">Texas Instruments, TL2575-12IKTTR Switching Regulator 1A Adjustable, 11.4  12.6 V, 5-Pin TO-263</field>
-        <field name="Height">4.83</field>
-        <field name="Manufacturer_Name">Texas Instruments</field>
-        <field name="Manufacturer_Part_Number">TL2575-12IKTTR</field>
-        <field name="Mouser Part Number">595-TL2575-12IKTTR</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TL2575-12IKTTR?qs=EnLMdcWnKACtdTe2DrM28w%3D%3D</field>
-        <field name="Arrow Part Number">TL2575-12IKTTR</field>
-        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tl2575-12ikttr/texas-instruments</field>
-      </fields>
-      <pins>
-        <pin num="1" name="VIN" type="passive"/>
-        <pin num="2" name="OUTPUT" type="passive"/>
-        <pin num="3" name="GND_1" type="passive"/>
-        <pin num="4" name="FEEDBACK" type="passive"/>
-        <pin num="5" name="~{ON}/OFF" type="passive"/>
-        <pin num="6" name="GND_2" type="passive"/>
+        <pin num="1" name="TP" type="no_connect"/>
+        <pin num="2" name="Vin" type="power_in"/>
+        <pin num="3" name="~{Sleep}" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="TP" type="no_connect"/>
+        <pin num="6" name="Vout" type="power_out"/>
+        <pin num="7" name="NC" type="no_connect"/>
+        <pin num="8" name="NC" type="no_connect"/>
       </pins>
     </libpart>
     <libpart lib="TMCS1107A1BQDRQ1" part="TMCS1107A1BQDRQ1">
@@ -885,18 +745,38 @@
         <pin num="4" name="4" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="XT60PW-M" part="XT60PW-M">
+    <libpart lib="XT90PW-F" part="XT90PW-F">
+      <description>Socket; DC supply; XT60; male; PIN: 2; on PCBs; THT; Colour: yellow</description>
+      <docs>https://www.tme.com/Document/7357a049cc8e5ea73e34d2124a313a81/XT90PW.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">XT90PW-F</field>
+        <field name="Footprint">XT90PW-F:XT90PW-F</field>
+        <field name="Datasheet">https://www.tme.com/Document/7357a049cc8e5ea73e34d2124a313a81/XT90PW.pdf</field>
+        <field name="Description">Socket; DC supply; XT90; female; PIN: 2; on PCBs; THT; Colour: yellow</field>
+        <field name="Height">8.4</field>
+        <field name="Manufacturer_Name">Changzou Amass Elec</field>
+        <field name="Manufacturer_Part_Number">XT90PW-F</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-" type="passive"/>
+        <pin num="2" name="+" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="XT90PW-M" part="XT90PW-M">
       <description>Socket; DC supply; XT60; male; PIN: 2; on PCBs; THT; Colour: yellow</description>
       <docs>https://www.tme.eu/Document/9b8d0c5eb7094295f3d3112c214d3ade/XT60PW%20SPEC.pdf</docs>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">XT60PW-M</field>
-        <field name="Footprint">XT60PWM</field>
+        <field name="Value">XT90PW-M</field>
+        <field name="Footprint">XT90PW-M:XT90PWM</field>
         <field name="Datasheet">https://www.tme.eu/Document/9b8d0c5eb7094295f3d3112c214d3ade/XT60PW%20SPEC.pdf</field>
-        <field name="Description">Socket; DC supply; XT60; male; PIN: 2; on PCBs; THT; Colour: yellow</field>
+        <field name="Description">Socket; DC supply; XT90; male; PIN: 2; on PCBs; THT; Colour: yellow</field>
         <field name="Height">8.4</field>
         <field name="Manufacturer_Name">Changzou Amass Elec</field>
-        <field name="Manufacturer_Part_Number">XT60PW-M</field>
+        <field name="Manufacturer_Part_Number">XT90PW-M</field>
       </fields>
       <pins>
         <pin num="1" name="-" type="passive"/>
@@ -907,9 +787,6 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="ADR3450ARJZ-R7">
-      <uri>/Users/sreenieadara/Documents/electrical/PMS/PMS/Custom/ADR3450ARJZ-R7/ADR3450ARJZ-R7.lib</uri>
-    </library>
     <library logical="Analog_ADC">
       <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Analog_ADC.kicad_sym</uri>
     </library>
@@ -919,14 +796,17 @@
     <library logical="Device">
       <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
     </library>
-    <library logical="Diode">
-      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Diode.kicad_sym</uri>
+    <library logical="Jumper">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Jumper.kicad_sym</uri>
     </library>
-    <library logical="LA12">
-      <uri>/Users/sreenieadara/Documents/electrical/PMS/PMS/Custom/LA12.pretty/LA12.kicad_sym</uri>
+    <library logical="Mechanical">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Mechanical.kicad_sym</uri>
     </library>
-    <library logical="TL2575-12IKTTR">
-      <uri>/Users/sreenieadara/Documents/electrical/PMS/PMS/Custom/LIB_TL2575-12IKTTR/TL2575-12IKTTR.kicad_sym</uri>
+    <library logical="OSTYK44105030">
+      <uri>/Users/sreenieadara/Documents/electrical/PMS/PMS/Custom/LIB_OSTYK44105030/OSTYK44105030.lib</uri>
+    </library>
+    <library logical="Reference_Voltage">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Reference_Voltage.kicad_sym</uri>
     </library>
     <library logical="TMCS1107A1BQDRQ1">
       <uri>/Users/sreenieadara/Documents/electrical/PMS/PMS/Custom/TMCS1107A1BQDRQ1/TMCS1107A1BQDRQ1.lib</uri>
@@ -934,8 +814,11 @@
     <library logical="XT60PW-F">
       <uri>/Users/sreenieadara/Documents/electrical/PMS/PMS/Custom/XT60PW-F/XT60PW-F.kicad_sym</uri>
     </library>
-    <library logical="XT60PW-M">
-      <uri>/Users/sreenieadara/Documents/electrical/PMS/PMS/Custom/XT60PW-M/XT60PW-M.kicad_sym</uri>
+    <library logical="XT90PW-F">
+      <uri>/Users/sreenieadara/Documents/electrical/PMS/PMS/Custom/XT90PW-F/XT90PW-F.kicad_sym</uri>
+    </library>
+    <library logical="XT90PW-M">
+      <uri>/Users/sreenieadara/Documents/electrical/PMS/PMS/Custom/XT90PW-M/XT90PW-M.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
@@ -946,82 +829,50 @@
     </net>
     <net code="2" name="+5VA">
       <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
       <node ref="C2" pin="1" pintype="passive"/>
       <node ref="C3" pin="1" pintype="passive"/>
       <node ref="C4" pin="1" pintype="passive"/>
       <node ref="C5" pin="1" pintype="passive"/>
-      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
       <node ref="IC1" pin="8" pinfunction="VS" pintype="passive"/>
-      <node ref="IC2" pin="5" pinfunction="VOUT_SEN" pintype="passive"/>
-      <node ref="IC2" pin="6" pinfunction="VOUT_FORCE" pintype="passive"/>
       <node ref="R4" pin="2" pintype="passive"/>
       <node ref="R5" pin="2" pintype="passive"/>
       <node ref="R6" pin="2" pintype="passive"/>
       <node ref="U1" pin="1" pinfunction="V_{A}" pintype="power_in"/>
       <node ref="U2" pin="1" pinfunction="V_{A}" pintype="power_in"/>
+      <node ref="U4" pin="6" pinfunction="Vout" pintype="power_out"/>
     </net>
     <net code="3" name="+5VP">
-      <node ref="C7" pin="1" pintype="passive"/>
-      <node ref="C8" pin="1" pintype="passive"/>
       <node ref="F2" pin="1" pintype="passive"/>
-      <node ref="IC2" pin="3" pinfunction="EN" pintype="passive"/>
-      <node ref="IC2" pin="4" pinfunction="VIN" pintype="passive"/>
-      <node ref="J3" pin="2" pinfunction="+" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="4" pintype="passive"/>
     </net>
-    <net code="4" name="+12V">
-      <node ref="C11" pin="1" pintype="passive"/>
-      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="L2" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U3" pin="3" pinfunction="VCC" pintype="power_in"/>
-    </net>
-    <net code="5" name="+24V">
-      <node ref="C10" pin="1" pintype="passive"/>
+    <net code="4" name="+24V">
       <node ref="F1" pin="2" pintype="passive"/>
       <node ref="IC1" pin="1" pinfunction="IN+_1" pintype="passive"/>
       <node ref="IC1" pin="2" pinfunction="IN+_2" pintype="passive"/>
-      <node ref="IC3" pin="1" pinfunction="VIN" pintype="passive"/>
-      <node ref="J2" pin="2" pinfunction="+" pintype="passive"/>
-      <node ref="R1" pin="1" pintype="passive"/>
-      <node ref="U3" pin="A" pintype="input"/>
     </net>
-    <net code="6" name="+BATT">
+    <net code="5" name="+BATT">
       <node ref="F1" pin="1" pintype="passive"/>
       <node ref="J1" pin="2" pinfunction="+" pintype="passive"/>
     </net>
-    <net code="7" name="24V_OUT">
+    <net code="6" name="24V_OUT">
       <node ref="IC1" pin="3" pinfunction="IN-_1" pintype="passive"/>
       <node ref="IC1" pin="4" pinfunction="IN-_2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="J5" pin="2" pinfunction="+" pintype="passive"/>
-      <node ref="U3" pin="B" pintype="input"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
     </net>
-    <net code="8" name="GND">
-      <node ref="C1" pin="2" pintype="passive"/>
-      <node ref="C10" pin="2" pintype="passive"/>
-      <node ref="C11" pin="2" pintype="passive"/>
-      <node ref="C2" pin="2" pintype="passive"/>
-      <node ref="C3" pin="2" pintype="passive"/>
-      <node ref="C4" pin="2" pintype="passive"/>
-      <node ref="C5" pin="2" pintype="passive"/>
-      <node ref="C6" pin="1" pintype="passive"/>
-      <node ref="C7" pin="2" pintype="passive"/>
+    <net code="7" name="GND">
+      <node ref="C7" pin="1" pintype="passive"/>
       <node ref="C8" pin="2" pintype="passive"/>
-      <node ref="C9" pin="2" pintype="passive"/>
-      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="IC1" pin="5" pinfunction="GND" pintype="passive"/>
-      <node ref="IC2" pin="1" pinfunction="GND_FORCE" pintype="passive"/>
-      <node ref="IC2" pin="2" pinfunction="GND_SEN" pintype="passive"/>
-      <node ref="IC3" pin="3" pinfunction="GND_1" pintype="passive"/>
-      <node ref="IC3" pin="5" pinfunction="~{ON}/OFF" pintype="passive"/>
-      <node ref="IC3" pin="6" pinfunction="GND_2" pintype="passive"/>
       <node ref="J1" pin="1" pinfunction="-" pintype="passive"/>
       <node ref="J1" pin="3" pinfunction="3" pintype="passive"/>
       <node ref="J1" pin="4" pinfunction="4" pintype="passive"/>
-      <node ref="J2" pin="1" pinfunction="-" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="J2" pin="3" pinfunction="3" pintype="passive"/>
-      <node ref="J2" pin="4" pinfunction="4" pintype="passive"/>
-      <node ref="J3" pin="1" pinfunction="-" pintype="passive"/>
-      <node ref="J3" pin="3" pinfunction="3" pintype="passive"/>
-      <node ref="J3" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="5" pintype="passive"/>
       <node ref="J4" pin="1" pinfunction="-" pintype="passive"/>
       <node ref="J4" pin="3" pinfunction="3" pintype="passive"/>
       <node ref="J4" pin="4" pinfunction="4" pintype="passive"/>
@@ -1029,60 +880,77 @@
       <node ref="J5" pin="3" pinfunction="3" pintype="passive"/>
       <node ref="J5" pin="4" pinfunction="4" pintype="passive"/>
       <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="8" name="GNDA">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="IC1" pin="5" pinfunction="GND" pintype="passive"/>
+      <node ref="JP1" pin="2" pinfunction="B" pintype="passive"/>
       <node ref="R3" pin="2" pintype="passive"/>
       <node ref="U1" pin="2" pinfunction="GND" pintype="power_in"/>
       <node ref="U1" pin="4" pinfunction="ADDR" pintype="input"/>
       <node ref="U2" pin="2" pinfunction="GND" pintype="power_in"/>
-      <node ref="U3" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="4" pinfunction="GND" pintype="power_in"/>
     </net>
-    <net code="9" name="Net-(C9-Pad1)">
-      <node ref="C9" pin="1" pintype="passive"/>
-      <node ref="IC3" pin="4" pinfunction="FEEDBACK" pintype="passive"/>
-      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="L2" pin="2" pinfunction="2" pintype="passive"/>
+    <net code="9" name="Net-(C7-Pad2)">
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="Vin" pintype="power_in"/>
+      <node ref="U4" pin="3" pinfunction="~{Sleep}" pintype="input"/>
     </net>
-    <net code="10" name="Net-(D1-Pad1)">
-      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="IC3" pin="2" pinfunction="OUTPUT" pintype="passive"/>
-      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
-    </net>
-    <net code="11" name="Net-(IC1-Pad7)">
+    <net code="10" name="Net-(IC1-Pad7)">
       <node ref="IC1" pin="7" pinfunction="VOUT" pintype="passive"/>
       <node ref="U2" pin="3" pinfunction="V_{IN}" pintype="input"/>
-      <node ref="U3" pin="4" pinfunction="VOUT" pintype="output"/>
     </net>
-    <net code="12" name="Net-(R1-Pad2)">
+    <net code="11" name="Net-(R1-Pad2)">
       <node ref="R1" pin="2" pintype="passive"/>
       <node ref="R2" pin="1" pintype="passive"/>
       <node ref="U1" pin="3" pinfunction="V_{IN}" pintype="input"/>
     </net>
-    <net code="13" name="Net-(R3-Pad1)">
+    <net code="12" name="Net-(R3-Pad1)">
       <node ref="R3" pin="1" pintype="passive"/>
       <node ref="R4" pin="1" pintype="passive"/>
       <node ref="U2" pin="4" pinfunction="ADDR" pintype="input"/>
     </net>
-    <net code="14" name="SCL">
+    <net code="13" name="SCL">
       <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="R5" pin="1" pintype="passive"/>
       <node ref="U1" pin="5" pinfunction="SCL" pintype="input"/>
       <node ref="U2" pin="5" pinfunction="SCL" pintype="input"/>
     </net>
-    <net code="15" name="SDA">
+    <net code="14" name="SDA">
       <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="R6" pin="1" pintype="passive"/>
       <node ref="U1" pin="6" pinfunction="SDA" pintype="bidirectional"/>
       <node ref="U2" pin="6" pinfunction="SDA" pintype="bidirectional"/>
     </net>
-    <net code="16" name="unconnected-(IC1-Pad6)">
+    <net code="15" name="unconnected-(IC1-Pad6)">
       <node ref="IC1" pin="6" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="17" name="unconnected-(J6-Pad3)">
+    <net code="16" name="unconnected-(J6-Pad3)">
       <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive+no_connect"/>
     </net>
-    <net code="18" name="unconnected-(U3-Pad1)">
-      <node ref="U3" pin="1" pinfunction="NC" pintype="no_connect"/>
+    <net code="17" name="unconnected-(U4-Pad1)">
+      <node ref="U4" pin="1" pinfunction="TP" pintype="no_connect"/>
+    </net>
+    <net code="18" name="unconnected-(U4-Pad5)">
+      <node ref="U4" pin="5" pinfunction="TP" pintype="no_connect"/>
+    </net>
+    <net code="19" name="unconnected-(U4-Pad7)">
+      <node ref="U4" pin="7" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="20" name="unconnected-(U4-Pad8)">
+      <node ref="U4" pin="8" pinfunction="NC" pintype="no_connect"/>
     </net>
   </nets>
 </export>
